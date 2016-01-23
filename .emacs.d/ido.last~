@@ -1,0 +1,90 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "home/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/" . "models/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" . "subject_suggestion/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "modals/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" . "confirmed_identity/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" . "show/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" . "subjects/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" . "entities/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" . "app/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/" . "javascripts/")
+ ("/home/" . "nicholass/")
+ ("/home/nicholass/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/nicholass/.org/"
+ "/home/nicholass/"
+ "/home/nicholass/.emacs.d/"
+ "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/"
+ "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/"
+ "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/confirmed_identity/"
+ "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/collections/"
+ "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/subject_suggestion/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "dissertation.org"
+ ".emacs"
+ "ac-comphist.dat"
+ ".main.org"
+ "subject.js"
+ "page.js"
+ "view.js"
+ "suggestion_item.js"
+ "suggestion.js"
+ "confirmed_suggestion.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/subject_suggestion/" (21918 64185 188027 386000) "../" "template.html" "view.js" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/confirmed_identity/" (21921 38242 245871 400000) "../" "template.html" "view.js" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" (21919 3924 554011 804000) "../" "template.html" "page.js" "components/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/" (21923 28594 476439 126000) "post.js" "user_sign_in.js" "postcode.js" "user_title.js" "area.js" "incident.js" "membership.js" "../" "alert.js" "user_setting.js" "premises.js" "item.js" "district.js" "pages_attachment.js" "subject_feature.js" "reset_password_users.js" "access_token.js" "group_subject.js" "suggestion.js" "top_subject.js" "incident_dvd.js" "video.js" "event.js" "group_document.js" "branding.js" "subject_statistics.js" "membership_request.js" "resend_confirmation_users.js" "incident_statistics.js" "data_file.js" "trail.js" "page.js" "comment.js" "victim.js" "staff.js" "group_type.js" "staff_request.js" "item_detail.js" "incident_kind_set.js" "confirm_users.js" "police_force.js" "batch_job.js" "alert_confirmation.js" "subject.js" "photo.js" "./" "social_attachment.js" "user.js" "feature.js" "confirmed_suggestion.js" "site.js" "suggestion_item.js" "incident_kind.js" "user_news.js" "group.js" "statement.js")
+
+ ("/home/nicholass/" (21923 44915 935987 379000) ".PyCharm30/" ".gdocs.lang" ".ipython/" ".zsh_history" ".gnome2/" ".emacs~.old" ".dbus/" "котишка.pdf" ".audacity-data/" ".bashrc" "../" "TUTORIAL.ru~" ".wishrc.tcl" ".selected_editor" ".quodlibet/" "Документы/" ".wine/" "Видео/" "workspace/" ".gtk-bookmarks" ".pd/" "лечащий врач.doc" "Загрузки/" ".PlayOnLinux/" "tmux-client-4732.log" ".npm/" ".emacs.d/" ".ICEauthority" ".pswd" ".lesshst" ".xscreensaver" ".adom.data/" ".mkshrc" "droid_mp/" ".android/" ".gitconfig" ".gem/" "pd_lib/" ".local/" ".emacs~" ".themes/" ".pki/" "котишка.tif" ".mozilla/" "Andrii Trykush. CV.pdf" ".xsessionrc" ".Skype/" ".icons/" "PlayOnLinux's virtual drives/" ".atom/" ".WebStorm10/" ".zcompdump" "ZOOM0022.WAV" ".swt/" ".cache/" "TUTORIAL.ru" "котишка.png" "ru_RU.UTF-8" ".xsession-errors" ".pip/" "лечащий врач.1.doc" ".macromedia/" ".fltk/" ".sane/" "dev/" "PycharmProjects/" ".w3m/" ".xfce4-session.verbose-log" "Вопросы.doc" ".berkshelf/" "IMG_20150513_161600.jpg" "Изображения/" "Рабочий стол/" ".zlogin" ".xsession.old" ".rvm/" ".git-credential-cache/" "Музыка/" ".wireshark/" "Шаблоны/" ".aptitude/" ".xfce4-session.verbose-log.last" ".bash_profile" ".mongorc.js" ".main.org" ".eclipse/" ".profile" "my games/" ".dbshell" ".emacs" ".gnome/" ".bash_logout" "backup.img" ".gnome2_private/" "fw/" ".xsession-errors.old" ".zshrc" ".Xdefaults" "Музей воды/" "Sublime Text 2/" ".gdocs.dat" ".gstreamer-0.10/" ".Xauthority" ".config/" ".thumbnails/" ".ardour2/" "WebstormProjects/" "Общедоступные/" ".jackdrc" "games/" "Скидки от.doc" ".dmrc" ".gconf/" ".gimp-2.8/" "./" ".gnupg/" "tmux-server-4734.log" ".pdsettings" ".java/" ".screenlayout/" ".#.main.org" "dead.letter" ".nano/" ".bash_history" ".tmux.conf" ".adobe/" ".ssh/" "VirtualBox VMs/" "Neverwinter Nights 2/")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/index/" (21910 16381 539185 539000) "empty_list.html" "../" "template.html" "page.js" "components/" "entities.html" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" (21869 43476 679957 997000) "../" "print_cctv_statements/" "suggestion_details/" "subject_suggestion/" "media_repository/" "edit_cctv_details/" "download_cctv_footage/" "print_banning_letter/" "print_statement/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/" (21869 43476 683957 997000) "index/" "../" "show/" "modals/" "trails/" "./" "form/")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" (21898 45580 907570 152000) "confirmed_identity/" "../" "search_areas/" "features/" "suggestions/" "incidents/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" (21869 43476 691957 996000) "index/" "matching/" "matched/" "../" "show/" "search_areas/" "modals/" "_shared/" "associates/" "sharing_exclusions/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" (21869 43476 691957 996000) "statistics/" "../" "groups/" "police/" "home/" "users/" "subjects/" "incidents/" "auth/" "./" "premises/" "pages/")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/collections/" (21917 39589 887562 160000) "group_types.js" "pages_attachments.js" "incident_states.js" "items_product_value.js" "user_titles.js" "suggestions.js" "../" "alerts.js" "videos.js" "access_tokens.js" "memberships.js" "premises.js" "group_descendants.js" "alert_confirmations.js" "fwid_stats.js" "incident_kind_sets.js" "item_details_suggested_names.js" "packages.js" "features.js" "postcodes.js" "police_forces.js" "districts.js" "items.js" "social_attachments.js" "statements.js" "subjects.js" "pages.js" "staff_requests.js" "incident_dvds.js" "user_sign_ins.js" "group_documents.js" "subject_statistics.js" "photos.js" "comments.js" "premises_staff_positions.js" "events.js" "subjects_kinds.js" "trails.js" "no_cctv_reasons.js" "victims.js" "incident_statistics.js" "posts.js" "premises_kinds.js" "top_subjects.js" "premises_stats.js" "staff.js" "areas.js" "group_staff_positions.js" "suggestion_items.js" "user_settings.js" "premises_good_types.js" "items_product_type.js" "incident_frequency.js" "membership_requests.js" "suggestion_items_suggested_names.js" "incident_kinds.js" "sites.js" "./" "groups.js" "confirmed_suggestion.js" "subject_features.js" "incidents.js" "subjects_states.js" "user_news.js" "item_details.js" "subject_states.js" "users.js" "group_subjects.js")
+
+ ("/home/nicholass/.emacs.d/" (21915 58791 700147 819000) "projectile-bookmarks.eld" "../" "auto-save-list/" "var/" "themes/" "projectile.cache" "request/" "session.2673a85a3-69f4-4b95-975d-0aea1048cdb7" "config/" "elpa/" "ac-comphist.dat" "./" "project-explorer-cache/")
+
+ ("/home/" (21514 14910 815454 373000) "../" "nicholass/" "./")
+
+ ("/home/nicholass/fw/" (21888 10109 303548 712000) "../" "cookbooks/" "fw2-frontend-app/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/" (21918 16430 23568 542000) "lib/" ".nvmrc" "Gruntfile.js" "temp/" "package.json" "../" "tasks" "test/" ".sass-cache/" ".gitignore" ".bowerrc" ".git/" "node_modules/" "README.md" "Gemfile.lock" "app/" "doc/" "config/" "./" "Gemfile" "bower.json" "Brewfile")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/" (21888 43293 82359 118000) "../" "crossdomain.xml" "images/" "robots.txt" "index.html" "apple-touch-icon.png" "stylesheets/" "components/" "bower_components/" "javascripts/" "./")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" (21889 25688 951594 393000) "lib/" "../" "require_config.js" "app/" "vendor/" "./" "main.js")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" (21889 23895 389117 713000) "controls/" "mixins/" "../" "packages/" "config.js" "utils/" "helper.js" "sandbox.js" "application.js" "screens/" "plugins/" "templates/" "helpers/" "entities/" "layouts/" "config/" "components/" "nls/" "router.js" "services/" "./" "shared/" "localization.js" "session.js")
+
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/" (21869 43476 663957 998000) "collections/" "../" "models/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,1 @@
+("~/.org/" "~/dev/vkus/site/" "~/fw/fw2-frontend-app/" "~/dev/js/chrome_ext/anti_market/" "~/fw/test-front/fw2-frontend-app/" "~/fw/opscode/" "~/dev/vkus/node-lending/" "~/fw/fw2-corporate-cms/" "~/dev/AejisTest/" "~/dev/ruby/learn_aejis/" "~/dev/python/deepdream/")

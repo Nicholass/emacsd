@@ -134,8 +134,18 @@
  '(js2-enter-indents-newline t)
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
- '(org-default-notes-file "/home/nicholass/.org/notes")
+
  '(org-directory "/home/nicholass/.org"))
+
+;; ("org-notes"
+;;  :base-directory "~/Dropbox/org/"
+;;  :base-extension "org"
+;;  :publishing-directory "~/Dropbox/Public/"
+;;  :recursive t
+;;  :publishing-function org-html-publish-to-html
+;;  :headline-levels 4             ; Just the default for this project.
+;;  :auto-preamble t
+;;  )
 (add-to-list 'auto-mode-alist '("\\.org\\'". org-mode))
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
@@ -262,7 +272,8 @@
 
 ;; http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
+(autoload 'jsx-mode "jsx-mode" "JSX mode" t)
 
 ;; (defun my-js2-indent-function ()
 ;;   (interactive)

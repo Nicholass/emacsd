@@ -134,8 +134,9 @@
  '(js2-enter-indents-newline t)
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
+ '(magit-branch-read-upstream-first t)
 
- '(org-directory "/home/nicholass/.org"))
+ '(org-directory "/home/nicholass/Dropbox/org"))
 
 ;; ("org-notes"
 ;;  :base-directory "~/Dropbox/org/"
@@ -146,6 +147,7 @@
 ;;  :headline-levels 4             ; Just the default for this project.
 ;;  :auto-preamble t
 ;;  )
+
 (add-to-list 'auto-mode-alist '("\\.org\\'". org-mode))
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)

@@ -27,26 +27,10 @@ URxvt.matcher.button:           1
 URxvt.matcher.pattern.1:        \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 ! }}}
 
-! ---| xpdf |--- {{{
-xpdf*enableFreetype: yes
-xpdf*antialias: yes
-xpdf*foreground: black
-xpdf*background: white
-xpdf*urlCommand: /usr/bin/opera %s
-xpdf*viKeys: on
-!}}}
-
-
-
 !------------------------yeah console
-!какой терминал юзаем, отсюда уже и спецыфичные для терминала вещи
-!по типу цвет фона, полосе прокрутки и прочее
 yeahconsole*term:urxvt
-!высота
-yeahconsole*consoleHeight:25
-!хоткей для вызова (вместо None можно указать и Menu Control и прочее)
-!т.е. здесь вызов консоли будет производиться по F1
-yeahconsole*toggleKey:None+F12
+yeahconsole*consoleHeight:40
+yeahconsole*toggleKey:None+XF86Launch1
 !цвет фона
 !yeahconsole*background:#656060
 !цвет текста
@@ -56,40 +40,103 @@ yeahconsole*cursorColor:#E6E3E6
 !автоматический перезапуск при выходе
 yeahconsole*restart:1
 !хоткей для разворачивания на весь экран
-yeahconsole*keyFull:None+F11
-!хоткеи дли изменения размера (минус и плюс на NumLock'е)
+yeahconsole*keyFull:Control+XF86Launch1
+
 yeahconsole*keySmaller:Control+KP_Subtract
 yeahconsole*keyBigger:Control+KP_Add
 ! шрифты ("шрифты говно" © LOR)
-yeahconsole*faceName: xft:Monospace:antialiasing=true:size=10
-yeahconsole*boldFont: xft:Monospace:style=Bold:size=10  
+!yeahconsole*faceName: xft:Monospace:antialiasing=true:size=10
+!yeahconsole*boldFont: xft:Monospace:style=Bold:size=10
 !обрабатываем Esc по человечески
 yeahconsole*metaSendsEscape: true
 yeahconsole*aniDelay: 10
 !--------------------------
 
+! ---| xpdf |--- {{{
+xpdf*enableFreetype: yes
+xpdf*antialias: yes
+xpdf*foreground: black
+xpdf*background: white
+xpdf*urlCommand: /usr/bin/opera %s
+xpdf*viKeys: on
+!}}}
+
+! {{{ Emacs
+!Emacs.font: Terminus-9
+! }}}
+
 ! {{{ Colors
+URxvt.foreground:                    #b4b4b4
+URxvt.background:                    #1c1c1c
+URxvt.color0:                        #000000
+URxvt.color8:                        #555753
+URxvt.color1:                        #ff6565
+URxvt.color9:                        #ff8d8d
+URxvt.color2:                        #93d44f
+URxvt.color10:                       #c8e7a8
+URxvt.color3:                        #eab93d
+URxvt.color11:                       #ffc123
+URxvt.color4:                        #204a87
+URxvt.color12:                       #3465a4
+URxvt.color5:                        #ce5c00
+URxvt.color13:                       #f57900
+URxvt.color6:                        #89b6e2
+URxvt.color14:                       #46a4ff
+URxvt.color7:                        #cccccc
+URxvt.color15:                       #ffffff
+! ! }}}
+! Color-scheme : Symmetry
+! Author       : zofos <thenephilim0@gmail.com>
 
-! tangoesque scheme
-*foreground:                    #b4b4b4
-*background:                    #1c1c1c
-*color0:                        #000000
-*color8:                        #555753
-*color1:                        #ff6565
-*color9:                        #ff8d8d
-*color2:                        #93d44f
-*color10:                       #c8e7a8
-*color3:                        #eab93d
-*color11:                       #ffc123
-*color4:                        #204a87
-*color12:                       #3465a4
-*color5:                        #ce5c00
-*color13:                       #f57900
-*color6:                        #89b6e2
-*color14:                       #46a4ff
-*color7:                        #cccccc
-*color15:                       #ffffff
-! }}} 
+
+! !TomorrowNightEighties
+! #define t_background        #2d2d2d
+! #define t_current_line      #393939
+! #define t_selection      	#515151
+! #define t_foreground      	#cccccc
+! #define t_comment	     	#999999
+! #define t_red		     	#f2777a
+! #define t_orange	     	#f99157
+! #define t_yellow        	#ffcc66
+! #define t_green	        	#99cc99
+! #define t_aqua	        	#66cccc
+! #define t_blue	        	#6699cc
+! #define t_purple        	#cc99cc
 
 
+! *.foreground:   t_foreground
+! *.background:   t_background
+! *.cursorColor:  #aeafad
+
+! ! Black / Grey
+! *.color0:       #000000
+! *.color8:       #666666
+
+! ! Red / Bright Red
+! *.color1:       t_red
+! *.color9:       #FF3334
+
+! ! Green + Bright Green
+! *.color2:       t_green
+! *.color10:      #9ec400
+
+! ! Yellow (Orange) + Bright Yellow (Yellow)
+! *.color3:       t_orange
+! *.color11:      t_yellow
+
+! ! Blue + Bright Blue
+! *.color4:       t_blue
+! *.color12:      t_blue
+
+! ! Magenta (Purple) + Bright Magenta
+! *.color5:       t_purple
+! *.color13:      #b777e0
+
+! ! Cyan (Aqua) + Bright Cyan
+! *.color6:       t_aqua
+! *.color14:      #54ced6
+
+! ! Light Grey (Selection) + White (Current Line)
+! *.color7:       t_selection
+! *.color15:      t_current_line
 *TkTheme: clam

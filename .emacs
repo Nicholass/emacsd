@@ -127,15 +127,14 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
+    ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(js2-auto-indent-p t)
  '(js2-basic-offset 2)
- '(js2-bounce-indent-p t)
+ '(js2-bounce-indent-p nil)
  '(js2-enter-indents-newline t)
+ '(magit-branch-read-upstream-first t)
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
- '(magit-branch-read-upstream-first t)
-
  '(org-directory "/home/nicholass/Dropbox/org"))
 
 ;; ("org-notes"
@@ -213,11 +212,15 @@
 (setq-default indicate-empty-lines t)
 (setq-default indicate-buffer-boundaries 'left)
 
-;; Window size. Set font
+;; Window size. Set font-family-list
+(set-default-font "DejaVu Sans Mono-10" nil t)
+(set-face-attribute 'default nil :font "DejaVu Sans Mono-10" )
+(set-frame-font "DejaVu Sans Mono-10" nil t)
+(set-face-attribute 'mode-line nil :font "DejaVu Sans Mono-10")
 (add-to-list 'default-frame-alist '(width . 100))
 (add-to-list 'default-frame-alist '(height . 30))
-(when (member "DejaVu Sans Mono" (font-family-list))
-    (set-frame-font "DejaVu Sans Mono-11" nil t))
+;; (when (member "Roboto" (font-family-list))
+;;     (set-frame-font "Roboto" nil t)) ;
 
 ;; Scrolling
 (setq scroll-step               1)
@@ -233,9 +236,14 @@
 (transient-mark-mode 1) ; highlight text selection
 (delete-selection-mode 1) ; delete seleted text when typing
 
-;; Turn off auto indent
-(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+;; Indent
+;;(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+;; (electric-indent-mode +1)
+;; (setq-default electric-indent-inhibit t)
+(require 'auto-indent-mode)
+(auto-indent-global-mode)
 (setq-default indent-tabs-mode nil)
+
 (electric-pair-mode 1)
 (show-paren-mode 1) ; turn on paren match highlighting
 (setq show-paren-delay 0)
@@ -247,11 +255,15 @@
 
 ;; Linum plug-in
 (require 'linum)
-(line-number-mode   t)
-(global-linum-mode  t)
+(line-number-mode   -1)
+(global-linum-mode  -1)
 (column-number-mode t)
 (setq linum-format " %d")
 (global-visual-line-mode 1) ; корректный автоперенос
+
+;; ;; Move lines
+;; (require 'move-lines)
+;; (move-lines-binding)
 
 ;; Multi-term
 (require 'multi-term)
@@ -330,6 +342,9 @@
 (define-key help-map "\M-f" 'show-file-name)
 (setq make-backup-files nil)
 (setq auto-save-default nil) ; stop creating #autosave# files
+
+;; Term
+(global-set-key (kbd "C-x t t") 'multi-term)
 
 
 ;; PM stuff -------------------------

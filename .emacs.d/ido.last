@@ -2,6 +2,87 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/users/" . "show/")
+ ("/home/nicholass/work/fr-microweb/node_modules/" . "q/")
+ ("/home/nicholass/work/fr-microweb/app/" . "controllers/")
+ ("/home/nicholass/work/fr-microweb/" . "app/")
+ ("/home/nicholass/work/fw-talk/bower_components/" . "stanza/")
+ ("/home/nicholass/work/fw-talk/" . "example/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/" . "_mixins/")
+ ("/home/nicholass/work/fw-fr-box/node_modules/" . "request/")
+ ("/home/nicholass/work/fw-fr-box/bower_components/" . "bootstrap/")
+ ("/home/nicholass/work/fw-fr-box/" . "node_modules/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/" . "incident_edit_button/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/" . "entity_profile_link/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/" . "shared/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/" . "pages/")
+ ("/sudo::/etc/" . "apt/")
+ ("/sudo::/" . "etc/")
+ ("/home/nicholass/work/fr-app-2/app/components/fr/" . "page/")
+ ("/home/nicholass/work/fr-app-2/app/components/" . "fr/")
+ ("/home/nicholass/work/fr-app-2/app/" . "components/")
+ ("/home/nicholass/work/fr-app-2/config/" . "common/")
+ ("/home/nicholass/work/fr-app-2/" . "config/")
+ ("/home/nicholass/work/fr-app/app/components/lib/list/" . "base-list/")
+ ("/home/nicholass/work/fr-app/app/components/fr/" . "page/")
+ ("/home/nicholass/work/fr-app/app/components/core/" . "app/")
+ ("/home/nicholass/work/fr-app/app/components/base/" . "header/")
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/" . "incidents/")
+ ("/home/nicholass/work/fw2-incidents-api/app/" . "controllers/")
+ ("/home/nicholass/work/fw2-incidents-api/spec/" . "acceptance/")
+ ("/home/nicholass/work/fw2-incidents-api/" . "app/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/entities/" . "collections/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/components/" . "user_news_post_updater/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/" . "components/")
+ ("/home/nicholass/work/fr-app/app/components/lib/" . "auth/")
+ ("/home/nicholass/work/fr-app/app/components/" . "lib/")
+ ("/home/nicholass/work/fr-app/app/" . "components/")
+ ("/home/nicholass/opt/src/python/" . "markov-bach/")
+ ("/home/nicholass/opt/src/" . "python/")
+ ("/home/nicholass/opt/" . "src/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/" . "statement_item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/" . "add_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/" . "mixins/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/modals/" . "add_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/" . "statements/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" . "print_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/item/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/" . "alerts/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/" . "index/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" . "suggestions/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/" . "views/")
+ ("/home/nicholass/work/fr-app/config/" . "common/")
+ ("/home/nicholass/work/fr-app/" . "config/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/" . "entities_remote_data/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/" . "print_poster/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/index/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/" . "index/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/" . "base/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/" . "statements/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "modals/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/" . "users/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/" . "packages/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/" . "app/")
+ ("/home/nicholass/work/fw2-frontend-app/app/" . "javascripts/")
+ ("/home/nicholass/work/fw2-frontend-app/" . "app/")
+ ("/home/nicholass/work/fr-app-test/app/components/core/" . "app/")
+ ("/home/nicholass/work/fr-app-test/app/components/" . "core/")
+ ("/home/nicholass/work/fr-app-test/app/" . "components/")
+ ("/home/nicholass/work/fr-app-test/" . "app/")
+ ("/home/nicholass/work/" . "fw2-frontend-app/")
  ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/alerts/" . "show/")
  ("/home/nicholass/fw/fr-app/config/" . "testing/")
  ("/home/nicholass/fw/fr-app/app/components/base/" . "menu/")
@@ -156,278 +237,278 @@
  ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" . "app/")
  ("/home/nicholass/fw/fw2-frontend-app/app/" . "javascripts/")
  ("/home/" . "nicholass/")
- ("/home/nicholass/" . "fw/")
+ ("/home/nicholass/" . "work/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/alerts/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/"
- "/home/nicholass/fw/fw2-frontend-app/config/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/alerts/show/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/subject_warning_markers/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/"
  "/home/nicholass/"
- "/home/nicholass/Dropbox/org/"
- "/home/nicholass/fw/fw2-frontend-app/app/bower_components/requirejs-i18n/"
- "/home/nicholass/fw/fw2-frontend-app/"
- "/home/nicholass/fw/fw2-frontend-app/app/bower_components/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/"
- "/home/nicholass/fw/fr-app/config/"
- "/home/nicholass/fw/fr-app/app/components/core/root/"
- "/home/nicholass/fw/fr-app/app/components/lib/list/base-list/"
- "/home/nicholass/fw/fr-app/app/components/fr/page/"
- "/home/nicholass/fw/fr-app/app/components/lib/auth/"
- "/home/nicholass/fw/fr-app/app/"
- "/home/nicholass/fw/fr-app/app/components/core/app/"
- "/home/nicholass/fw/frontend/src/containers/"
- "/home/nicholass/fw/frontend/src/actions/"
- "/home/nicholass/fw/fr-app/config/testing/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/plugins/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/services/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/auth/sign_in/"
- "/home/nicholass/fw/frontend/src/components/"
- "/home/nicholass/fw/fr-app/app/components/base/header/"
- "/home/nicholass/fw/fr-app/app/components/base/footer/"
- "/home/nicholass/fw/fr-app/app/components/lib/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/layouts/main/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/print_poster/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/banning_letters/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/weed/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/helpers/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/components/posters/"
- "/home/nicholass/fw/frontend/config/"
- "/home/nicholass/dev/node/grabber/"
- "/home/nicholass/fw/frontend/src/constants/"
- "/home/nicholass/fw/frontend/src/store/"
- "/home/nicholass/fw/frontend/src/reducers/"
- "/home/nicholass/fw/frontend/src/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/screens/home/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/screens/auth/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/base/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/videos/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/users/index/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/users/show/"
+ "/home/nicholass/work/fr-microweb/"
+ "/home/nicholass/work/fr-microweb/app/controllers/"
+ "/home/nicholass/work/fr-microweb/specs/"
+ "/home/nicholass/work/fr-microweb/app/lib/"
+ "/home/nicholass/work/fr-microweb/config_templates/"
+ "/home/nicholass/work/fr-microweb/node_modules/q/"
+ "/home/nicholass/work/fr-microweb/test/"
+ "/home/nicholass/work/fw-fr-box/node_modules/request/lib/"
+ "/home/nicholass/work/fr-microweb-old/"
+ "/home/nicholass/work/fr-microweb/app/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/alerts/"
+ "/home/nicholass/work/fw-talk/"
+ "/home/nicholass/work/fw-talk/example/"
+ "/home/nicholass/work/fw-talk/bower_components/stanza/"
+ "/home/nicholass/work/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_profile_link/"
+ "/home/nicholass/work/fw-fr-box/"
+ "/pi@"
+ "/ssh:pi@"
+ "/sudo::/etc/hostapd/"
+ "/home/nicholass/work/fw-fr-box/node_modules/request/"
+ "/home/nicholass/work/fw-fr-box/bower_components/bootstrap/"
+ "/home/nicholass/work/fw2-frontend-app/"
+ "/home/nicholass/work/fw2-incidents-api/app/controllers/"
+ "/home/nicholass/work/fw2-incidents-api/spec/acceptance/incidents/"
+ "/home/nicholass/work/fw2-incidents-api/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/views/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/item/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/helpers/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/entities_remote_data/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/premises/show/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/components/item/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_details/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/staff/components/staff_item/"
+ "/home/"
+ "/home/nicholass/Завантажене/"
+ "/sudo:fgsfds:/etc/apt/"
+ "/sudo::/etc/apt/"
+ "/etc/apt/"
+ "/sudo:fgsfds:"
+ "/sudo:/"
+ "/home/nicholass/work/fr-app/config/"
+ "/home/nicholass/work/fr-app/app/components/lib/auth/"
+ "/home/nicholass/work/fr-app/app/components/base/header/"
+ "/home/nicholass/work/fr-app-2/app/components/fr/page/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "template.html"
- "page.js"
- "view.js"
- "config.json.example"
- "config.json"
- "subject.js"
- "show.html"
- "list.html"
- "application.js"
  ".emacs"
+ "template.html"
+ "config.json"
+ "config.json.example"
+ "fr-api.js"
+ ".gitignore"
+ "index.html"
+ "setup_wirless.html"
+ "alprd_test.js"
+ "utils.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/alerts/" (22259 62952 255338 477000) "../" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/" (22378 36670 445399 226000) ".Xdefaults" ".thumbnails/" "digg/" ".keys/" "Завантажене/" ".steampid" ".selected_editor" ".v8flags.4.5.103.35.nicholass.json" "#.newsrc-dribble#" ".nano/" ".TelegramDesktop/" "./" ".gnupg/" ".gstreamer-0.10/" ".emacs.d/" ".zshrc.old" ".wine/" ".adobe/" ".profile" ".oracle_jre_usage/" ".dmrc" ".gimp-2.8/" ".Xauthority" ".iBank2" ".aptitude/" ".pulse-cookie" ".ICEauthority" "opt/" ".zlogin" ".dropbox-dist/" ".bashrc" ".gem/" ".ipython/" ".zsh_history" "News/" ".dropbox/" ".node_repl_history" ".ssh/" ".bash_profile" ".xsession" ".zcompdump" ".zshrc.completion" "Шаблони/" "Музика/" "Відео/" ".mozilla/" "Podcasts/" ".quodlibet/" "fw_fr_box.img" ".bash_history" ".icons/" "Загальне/" ".gnome/" ".steam/" ".ansible/" ".berkshelf/" "Картинки/" ".mkshrc" "Dropbox/" ".music21rc" ".tmux.conf" "#*message*-20160622-161357#" ".pki/" ".config/" ".npm/" ".w3m/" ".rvm/" ".dbus/" ".xfce4-session.verbose-log" ".npm-global/" ".jackdrc" ".gphoto/" ".xsession-errors.old" ".xsessionrc" ".xfce4-session.verbose-log.last" ".hplip/" ".zsh_nocorrect" ".rediscli_history" "../" ".links2/" ".gconf/" "Стільниця/" ".xsession-errors" ".macromedia/" ".themes/" ".gitconfig" ".npmrc" ".java/" ".gnus" ".local/" ".git/" ".bash_logout" ".audacity-data/" "rosegarden/" "Документи/" ".xscreensaver" ".cache/" ".gnome2_private/" ".zshrc" "Audiobooks/" ".gnome2/" ".node-gyp/" "work/" ".emacs" ".steampath")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/" (22010 32319 422379 480000) "../" "add_notification/" "user_news/" "add_post_or_alert/" "support/" "alerts/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/users/show/" (22269 38901 319181 80000) "template.html" "./" "components/" "page.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/" (22258 38512 378305 138000) "../" "template.html" "page.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/users/settings/" (22269 38901 319181 80000) "template.html" "./" "components/" "page.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/" (21869 43476 671957 997000) "index/" "../" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/users/" (22269 38901 319181 80000) "./" "settings/" "change_password/" "../" "index/" "show/" "memberships/" "edit/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/alerts/show/" (22259 61784 528013 900000) "../" "template.html" "page.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/" (22269 38901 319181 80000) "premises/" "./" "groups/" "police/" "home/" "pages/" "statistics/" "auth/" "users/" "incidents/" "alerts/" "subjects/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/" (22259 60565 912823 263000) "gulpfile.js" "lib/" ".nvmrc" "Gruntfile.js" "temp/" "package.json" "../" "tasks" "test/" ".sass-cache/" ".gitignore" ".bowerrc" ".git/" "node_modules/" "README.md" "Gemfile.lock" "app/" "doc/" "config/" "./" "Gemfile" "bower.json" "Brewfile" "build/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/" (22269 38901 327181 135000) "main.js" "app/" "./" "lib/" "require_config.js" "vendor/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/config/" (22258 38512 262304 780000) "group_types.js" "../" "jquery/" "routes.js" "notifications.js" "main_menu_items.js" "./" "tab_items.js" "backbone/" "underscore/")
+ ("/home/nicholass/work/fw2-frontend-app/app/" (22269 42458 164412 849000) "bower_components/" "./" "index.html" "components/" "images/" "javascripts/" "stylesheets/" "crossdomain.xml" "../" "apple-touch-icon.png" "robots.txt")
 
- ("/home/nicholass/" (22259 47691 807537 59000) ".PyCharm30/" ".gdocs.lang" ".ipython/" ".innophi/" ".zsh_history" ".gnome2/" ".emacs~.old" ".dbus/" ".audacity-data/" ".bashrc" "../" ".wishrc.tcl" ".selected_editor" ".TelegramDesktop/" ".frictionalgames/" ".quodlibet/" "Документы/" ".wine/" ".v8flags.4.5.103.35.nicholass.json" "Видео/" "workspace/" ".gtk-bookmarks" ".pd/" ".irb-history" ".npmrc" "Загрузки/" ".PlayOnLinux/" ".npm/" ".steam/" "keys/" ".emacs.d/" ".ICEauthority" ".pswd" ".lesshst" ".xscreensaver" ".node-gyp/" ".adom.data/" ".mkshrc" "droid_mp/" ".android/" ".mplayer/" ".gr_fftw_wisdom" ".dropbox-dist/" ".gitconfig" ".gem/" "pd_lib/" ".local/" ".steampid" "lightdm.log" ".emacs~" ".themes/" ".pki/" "котишка.tif" ".xdemorserc" ".mozilla/" "Andrii Trykush. CV.pdf" ".xsessionrc" ".Skype/" ".icons/" "PlayOnLinux's virtual drives/" ".atom/" ".WebStorm10/" ".zshrc.pre-oh-my-zsh" ".heroku/" ".zcompdump" "digg/" "ZOOM0022.WAV" ".swt/" ".cache/" "котишка.png" ".xsession-errors" ".ptbt0" ".pip/" ".macromedia/" ".fltk/" ".gvfs/" ".git/" ".node_repl_history" ".sane/" "dev/" ".wget-hsts" ".gnuradio/" ".w3m/" ".gksu.lock" ".xfce4-session.verbose-log" "Dropbox/" ".steampath" ".berkshelf/" ".pulse-cookie" "IMG_20150513_161600.jpg" ".zsh-update" "Изображения/" "Рабочий стол/" ".zlogin" ".xsession.old" ".rvm/" ".hugindata/" ".dropbox/" ".git-credential-cache/" ".v8flags.3.14.5.8.nicholass.json" "Музыка/" ".hplip/" ".wireshark/" "Шаблоны/" ".aptitude/" ".ansible/" ".xfce4-session.verbose-log.last" ".bash_profile" ".mongorc.js" ".main.org" ".octave_hist" ".eclipse/" ".profile" ".googleearth/" ".dbshell" ".emacs" ".gnome/" ".bash_logout" "backup.img" ".gnome2_private/" "underground_public.qgs" "fw/" ".iBank2" ".netrc" ".xsession-errors.old" ".zshrc" ".Xdefaults" ".zcompdump-thnkpd-5.2" "Музей воды/" ".gdocs.dat" ".gstreamer-0.10/" ".Xauthority" ".zcompdump-thnkpd-5.0.8" ".config/" ".thumbnails/" ".ardour2/" ".openshot/" ".zshrc.completion" "Общедоступные/" ".jackdrc" ".babel.json" ".dmrc" ".npm-packages/" ".gconf/" ".XCompose" ".v8flags.4.5.103.33.nicholass.json" ".gimp-2.8/" "./" ".gnupg/" ".qws/" ".hugin" ".pdsettings" ".java/" ".oh-my-zsh/" ".qgis2/" ".screenlayout/" "dead.letter" ".nano/" ".bash_history" ".zcompdump-thnkpd-5.1.1" ".mindterm/" ".tmux.conf" ".adobe/" ".ssh/" ".rnd" "VirtualBox VMs/")
+ ("/home/nicholass/work/fr-microweb/" (22375 63743 62971 526000) "gulpfile.js" "specs/" "bower_components/" "setup_wirless.html" "app/" "./" "config_templates/" "logo.png" "bower.json" "index.html" "alprd.conf" "package.json" "node_modules/" "server.js" "README.md" ".gitignore" "config.json.example" "conf-template.js" "../" ".git/" "static/" "config.json")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/alerts/" (22258 38512 270304 805000) "../" "show/" "./")
+ ("/home/nicholass/work/fr-microweb/app/lib/" (22375 61122 140910 131000) "./" "utils.js" "node_os_utils.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" (22258 38512 270304 805000) "statistics/" "../" "groups/" "police/" "home/" "users/" "subjects/" "incidents/" "alerts/" "auth/" "./" "premises/" "pages/")
+ ("/home/nicholass/work/fr-microweb/app/controllers/" (22375 62044 889552 296000) "db.js" "./" "hotspot.js" "alprd.js" "../" "fr-api.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/" (22258 38512 262304 780000) "post.js" "user_sign_in.js" "postcode.js" "incident_unikind.js" "user_title.js" "area.js" "incident.js" "file_repository.js" "membership.js" "../" "alert.js" "user_setting.js" "premises.js" "item.js" "district.js" "pages_attachment.js" "subject_feature.js" "reset_password_users.js" "access_token.js" "group_subject.js" "suggestion.js" "top_subject.js" "incident_dvd.js" "fr_match.js" "video.js" "event.js" "group_document.js" "branding.js" "subject_statistics.js" "membership_request.js" "resend_confirmation_users.js" "incident_statistics.js" "data_file.js" "trail.js" "page.js" "comment.js" "victim.js" "staff.js" "group_type.js" "staff_request.js" "item_detail.js" "incident_kind_set.js" "confirm_users.js" "police_force.js" "batch_job.js" "anpr_match.js" "alert_confirmation.js" "subject.js" "photo.js" "./" "social_attachment.js" "user.js" "feature.js" "site.js" "suggestion_item.js" "user_share.js" "incident_kind.js" "user_news.js" "group.js" "statement.js")
+ ("/home/nicholass/work/fr-microweb/specs/" (22375 61367 306939 174000) "./" "fr_api_test.js" "db_test.js" "api_test.js" "../" "alprd_test.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/" (21869 43476 663957 998000) "collections/" "../" "models/" "./")
+ ("/home/nicholass/work/fr-microweb/config_templates/" (22375 58829 869038 285000) "./" "alprd.hbs" "wpa_supplicant.hbs" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" (22258 38512 446305 347000) "lib/" "../" "require_config.js" "app/" "vendor/" "./" "main.js")
+ ("/home/nicholass/Завантажене/" (22375 53937 319602 54000) "AndreyRuzmanovRubyonRailsCV.pdf" "CS1.6_fy_maps_pack_v1.rar" "162060-numix-colors.tar" "dropbox_2015.10.28_amd64(1).deb" "Telegram Desktop/" "KP3_Updater_0200E2.zip" "159304-NumixHolo.7z" "czde_dust.wad" "6Wwv2Injc2M.jpg" "google-chrome-stable_current_amd64(1).deb" "fy_stroyka.wad" "54509-etude-4.6.3.5.tar.bz2" "Ди.jpg" "./" "троица.jpg" "2885_awp_monopoly_v2.rar" "maps.rar" "Telegram/" "list6.psd" "cs maps/" "list4.psd" "as_tundra.wad" "server-jre-8u77-linux-x64.tar.gz" "dropbox_2015.10.28_amd64.deb" "google-earth-stable_current_amd64.deb" "171329-UniteMod.tar.gz" "175017-PRA-DMZ.tar.gz" "cookbooks.tgz" "list3.psd" "djon_ono_knigi.exe" "w6JNhngVll0.jpg" "ge.kml" "sovka.pdf" "01 06 2016 Ïåðåêàç ç êàðòè íà êàðòó .pdf" "Roboto.zip" "Vivacious-Colors-1-3-GTK-Icon-Theme.tar.gz" "de_vegas.wad" "cookbooks(1).tgz" "intersections.zip" "CS1.6_fy_maps_pack_v1.7z" "Lucid Ambiance for XFCE.tar.gz" "awp_hunter.rar" "_5457-.zip" "169299-numix-cursor.tar.gz" "maps.tgz" "Setup_E.exe" "cs-2744-awp_military_base.zip" "cstrike.tar" "document.pdf" "list1.psd" "evolvere-black-folders-1.1.9.tar.gz" "oracle-java8-server-jre_8u77_amd64.deb" "google-chrome-stable_current_amd64.deb" "steam_latest.deb" "12914892_999711620113620_83856619_o.jpg" "ef1551fc7d3e.png" "awp_forest_cs.rar" "awp_november.zip" "Wtc2midi.zip" "RuoU0tX1dzs.jpg" "CS1.6_awp_maps_pack_v2.7z" "1463394064_242960_46.jpg" "Titillium_Web.tar.gz" "tsetup.0.9.33.tar.xz" "R3_Sound_Editor_Ver_101 _633660007470190000.zip" "McLx8zkxi.png" "документы/" "awp_valtring(1).zip" "../" "image197.jpg" "awp_parking_3.rar" "ReactOS-0.4.1-REL-iso.zip" "awp_ruins2.zip" "ауе.jpg" "cs-arena-ru_de_train_2x2_b.rar" "754641822673743.jpg" "CS1.6_pack_awp_maps_by_Barbie.rar" "Color-UI-theme-project-1.5.1-RPF-2-Build-19.zip" "3f3b4277f1ce27f8_large_copy2.dns4t8l2ih44csok0w4kwc044.ejcuplo1l0oo0sk8c40s8osc4.th.jpeg" "microSAMPLER_Editor_100E.zip" "AWP_FERREIRO.zip" "awp_valtring.zip" "12915239_999711433446972_563598430_o.jpg" "1463357987_479985_96.png" "awp_gorodok_night_2.zip" "Agenda_20-27May2016.dotx" "Довідка-Коробку-начання.doc" "AN97-2.4.apk" "fop1+fop2+uo.csv.7z")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" (22258 38512 446305 347000) "controls/" "mixins/" "../" "packages/" "config.js" "utils/" "helper.js" "sandbox.js" "application.js" "screens/" "plugins/" "templates/" "helpers/" "entities/" "layouts/" "config/" "components/" "nls/" "router.js" "services/" "./" "shared/" "localization.js" "session.js")
+ ("/home/nicholass/work/fr-microweb/app/" (22369 19652 77206 939000) "./" "lib/" "controllers/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/warning_markers/" (22001 37344 666534 406000) "../" "template.html" "page.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_details/" (22349 26885 613964 230000) "user.html" "./" "../" "group.html" "premises_contacts.html" "premises.html")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/" (22196 42062 819259 195000) "add_alert/" "groups_staff_status/" "upcoming_events/" "breadcrumb/" "incident_button/" "tabs/" "loading.js" "group_style/" "../" "custom_police_incident_types/" "important_notice/" "legal_banner/" "subject/" "new_staff_modal/" "subject_sharing/" "redactor/" "short_entity_data/" "download_file_link/" "inactivity/" "add_notification/" "group_signed_terms_status/" "subject_search_area/" "short_user_data/" "add_post/" "custom_good_types/" "group_staff_status/" "logger/" "logger_popup_switcher/" "subject_state/" "video_file/" "loading_notice/" "comments/" "group_newsletter_settings/" "notifier/" "subject_photos/" "entities_remote_data/" "subject_public/" "custom_incident_types/" "video_modal/" "screencap/" "file_repositories/" "./" "full_page_loading/" "subject_similar/" "attachments_repo/" "main_menu/" "group_requests/" "right_sidebar/" "subject_warning_markers/" "groups_unsigned_terms_counter/" "esri_maps/")
+ ("/home/nicholass/work/fr-microweb-old/" (22359 16734 942527 711000) "gulpfile.js" "bower_components/" "./" "logo.png" "bower.json" "index.html" "alprd.conf" "package.json" "node_modules/" "README.md" "conf-template.js" "../" "index.js" "static/" "config.json")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/subject_warning_markers/" (22001 37344 662534 401000) "../" "view.js" "show.html" "./" "list.html" "profile.html")
+ ("/home/nicholass/work/" (22366 40393 681717 849000) "fw-talk/" "./" "fr-microweb-old/" "fw2-frontend-app/" "node-tutorial-2-restful-app/" "fr-app/" "fr-microweb/" "fw2cd-playbooks/" "cookbooks/" "fw2-incidents-api/" "qemu_vms/" "../" "fw2-users-and-groups-api/" "fw-fr-box/")
 
- ("/home/nicholass/Dropbox/org/" (22257 35242 127496 875000) "digg.org" "digg.html" "../" ".#index.org" "index.org" "checksums.dat" ".git/" "protocol.html" "./")
+ ("/home/nicholass/work/fw2-frontend-app/lib/" (22269 38901 355181 328000) "./" "get_config.js" "tasks/" "../")
 
- ("/home/nicholass/Dropbox/" (22256 11277 614314 21000) "книги на разбор/" "../" "samples/" "org/" "Саморазвитие/" "ZOOM0037.WAV" "Книги/" "The_Hacker's_Manual_(2015)[1].pdf" ".dropbox" "Натальная карта.pdf" ".dropbox.cache/" "ZOOM0005.WAV" "./" "гимн.amr")
+ ("/home/nicholass/work/fr-microweb/node_modules/q/" (22357 34295 787316 355000) "./" "package.json" "queue.js" "CHANGES.md" "README.md" "q.js" "../" "LICENSE")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/bower_components/requirejs-i18n/" (21869 44605 143897 746000) "package.json" "../" "i18n.js" "README.md" ".bower.json" "LICENSE" "./")
+ ("/home/nicholass/work/fr-microweb/node_modules/" (22360 52794 387190 523000) "express/" "body-parser/" "./" "sinon/" "main-bower-files/" "q/" "request/" "supertest/" "redis/" "underscore/" "gulp-clean-dest/" "gulp-flatten/" "gulp/" ".bin/" "chai/" "fakeredis/" "../" "mongoose/" "mocha/" "assert/" "bower/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/bower_components/" (22073 19973 329594 475000) "backbone.wreqr/" "blueimp-load-image/" "../" "backbone.memento/" "bootstrap-datepicker/" "false/" "tabledraw/" "cocktail/" "timepicker/" "mem.js/" "bootstrap-sass-twbs/" "bootstrap-datetimepicker/" "jquery-placeholder/" "jquery/" "dojox/" "moment/" "blueimp-canvas-to-blob/" "dojo/" "underscore.string/" "blueimp-tmpl/" "backbone.babysitter/" "jquery-file-upload/" "requirejs/" "js-logger/" "highcharts-release/" "dijit/" "backbone-fetch-cache/" "jquery-migrate/" "backbone.model.state/" "bower_components/" "fullcalendar/" "uri.js/" "bootstrap/" "jquery.ui/" "form2js/" "JSON-js/" "rangy/" "requirejs-i18n/" "requirejs-text/" "./" "backbone.courier/" "jquery-deparam/" "backbone.controller/" "select2/" "cookies-js/" "backbone/" "fancybox/" "underscore/")
+ ("/home/nicholass/work/fr-microweb/static/" (22361 24504 925104 709000) "./" "logo.png" "jquery.validate.js" "bootstrap.min.css" "../" "jquery.min.js" "bootstrap.min.js")
 
- ("/home/nicholass/fw/fr-app/config/" (22248 56925 139296 717000) "current/" "../" "development/" "production/" "common/" "config.json" "testing/" "./")
+ ("/home/nicholass/work/fr-microweb/test/" (22348 53610 155703 637000) "./" "../" ".#alprd_test.js")
 
- ("/home/nicholass/fw/fr-app/app/components/core/app/" (22255 22199 281081 544000) "../" "index.js" "./")
+ ("/home/nicholass/work/fw-fr-box/node_modules/request/lib/" (22348 52865 872650 249000) "tunnel.js" "./" "auth.js" "multipart.js" "cookies.js" "redirect.js" "helpers.js" "oauth.js" "querystring.js" "../" "har.js" "getProxyFromURI.js")
 
- ("/home/nicholass/fw/fr-app/app/components/core/root/" (22254 50844 918363 6000) "../" "index.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/" (22348 48665 947281 283000) "gulpfile.js" "Brewfile" "config/" "test/" "app/" "Gemfile.lock" "./" "Gruntfile.js" "lib/" "bower.json" ".nvmrc" "package.json" "node_modules/" "doc/" "README.md" ".gitignore" "temp/" ".bowerrc" "tasks" "../" ".sass-cache/" ".git/" "Gemfile")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/list/base-list/" (22255 20658 540536 987000) "../" "style.scss" "index.js" "./" "duck.js")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/alerts/" (22340 25702 112330 660000) "template.html" "./" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/fr/page/" (22249 62854 702941 718000) "../" "style.scss" "index.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/" (22269 38901 295180 914000) "./" "add_post_or_alert/" "add_notification/" "user_news/" "support/" "alerts/" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/auth/" (22255 21711 756580 483000) "../" "actions.js" "style.scss" "operate.js" "index.js" "constants.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/" (22269 38901 291180 886000) "./" "../" "index/")
 
- ("/home/nicholass/fw/fr-app/app/components/fr/match-box/" (22247 23943 862213 770000) "../" "style.scss" "index.js" "./")
+ ("/home/nicholass/work/fw-talk/" (22341 51483 543551 22000) "bower_components/" "./" "../" "inde.html")
 
- ("/home/nicholass/fw/fw2-frontend-app/config/" (22166 21698 407123 229000) "services.json" "../" "services.yml" "oauth.yml" "services.yml.example" "services.yml.testing" "config.json.example" "config.json" "./" "oauth.yml.example")
+ ("/home/nicholass/work/fw-talk/example/" (22341 49575 0 0) "fonts/" "./" "css/" "index.html" "login.html" "js/" "ajax/" "dev.html" "../" "favicon.ico")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/plugins/" (22248 56621 206422 196000) "../" "group_terms_signer.js" "geolocation.js" "oauth.js" "./")
+ ("/home/nicholass/work/fw-talk/bower_components/stanza/" (22341 37087 148069 323000) ".jshintrc" "test/" "./" "lib/" "demo.html" "docs/" ".travis.yml" "package.json" ".validate.json" ".bower.json" "CHANGELOG.md" "README.md" ".gitignore" "Makefile" "SECURITY.md" "../" "index.js" "LICENSE" "CONTRIBUTING.md" ".jshintignore")
 
- ("/home/nicholass/fw/fr-app/config/testing/" (22247 23943 874213 857000) "../" "webpack.js" "./")
+ ("/home/nicholass/work/fw-talk/bower_components/" (22341 37087 32073 661000) "./" "stanza/" "../")
 
- ("/home/nicholass/fw/fr-app/config/production/" (22247 23943 874213 857000) "../" "webpack.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/print_statement/" (22340 25632 861338 901000) "./" "simple.html" "footer.html" "view.js" "../" "five_part.html")
 
- ("/home/nicholass/fw/fr-app/config/development/" (22247 23943 874213 857000) "../" "webpack.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/entities_remote_data/" (22340 25663 916124 489000) "posts_view.js" "./" "view.js" "attachments_view.js" "../" "data_files_view.js")
 
- ("/home/nicholass/fw/fr-app/config/current/" (22247 23943 874213 857000) "../" "webpack.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/" (22340 25668 822908 859000) "template.html" "./" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/auth/" (21869 43476 667957 998000) "../" "terms/" "forgot_password/" "password_expired/" "resend_confirmation/" "create_account/" "reset_password/" "update_user_profile/" "sign_in/" "thank_you/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/helpers/" (22340 25668 34468 500000) "subjects_helper.js" "./" "entities_remote_data.js" "main_helper.js" "enums_helper.js" "dom_helper.js" "dates_helper.js" "staff_roles_helper.js" "navigator_helper.js" "../" "urls_helper.js" "ability_helper.js")
 
- ("/home/nicholass/fw/fr-app/app/components/base/header/" (22247 23943 862213 770000) "../" "style.scss" ".gitkeep" "index.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/item/" (22340 25666 925844 714000) "./" "staff_to_group.html" "member_from_group.html" "view.js" "member_to_group.html" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/statement_item/" (22196 42062 867259 236000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/views/" (22340 25669 587333 663000) "print_modal.js" "./" "widget.js" "index_page.js" "modal.js" "index_widget.js" "page.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/components/item/" (22196 42062 835259 209000) "../" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_profile_link/" (22341 28721 944765 948000) "user.html" "incident_draft.html" "incident.html" "./" "user_clickover.html" "premises_clickover.html" "subject.html" "soi.html" "../" "group.html" "premises.html" "group_clickover.html")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/" (22196 42062 855259 225000) "../" "empty.html" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/_mixins/" (22269 38901 287180 858000) "./" "list.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/esri_maps/" (22201 14948 828185 505000) "map_legend.html" "../" "view.js" "./")
+ ("/home/nicholass/work/fw-fr-box/" (22340 10347 154174 633000) "gulpfile.js" "bower_components/" "./" "logo.png" "bower.json" "index.html" "package.json" "node_modules/" "dump.rdb" "conf-template.js" "../" "index.js" ".git/" "static/" "config.json")
 
- ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/groups/" (21869 43476 775957 992000) "index_spec.js" "../" "staff_spec.js" "posts_spec.js" "premises_spec.js" "modals/" "documents_spec.js" "show_spec.js" "settings/" "./" "edit_spec.js")
+ ("/home/nicholass/work/fw-fr-box/node_modules/request/" (22333 1802 955186 808000) "request.js" "./" "lib/" ".travis.yml" "package.json" "node_modules/" ".eslintrc" "CHANGELOG.md" "README.md" "../" "index.js" "LICENSE" "CONTRIBUTING.md" ".npmignore")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/" (22248 43583 915421 830000) "../" "auth/" "./" "form/" "list/" "table/")
+ ("/home/nicholass/work/fw-fr-box/node_modules/" (22333 5124 395798 151000) "express/" "body-parser/" "gulp-minify-css/" "./" "main-bower-files/" "gulp-bower-files/" "express-generator/" "request/" "redis/" "nodemon/" "gulp-clean-dest/" "gulp-rename/" "gulp-flatten/" "gulp/" ".bin/" "../" "gulp-filter/" "mongoose/" "bower/" "gulp-uglify/")
 
- ("/home/nicholass/fw/fr-app/app/components/base/footer/" (22247 23943 862213 770000) "../" ".gitkeep" "index.js" "./")
+ ("/home/nicholass/work/fw-fr-box/bower_components/bootstrap/" (22332 62075 629594 444000) "dist/" "fonts/" "./" "Gruntfile.js" "package.js" "nuget/" "bower.json" "package.json" ".bower.json" "js/" "CHANGELOG.md" "README.md" "../" "less/" "LICENSE" "grunt/")
 
- ("/home/nicholass/fw/fr-app/app/" (22248 45591 281861 646000) "lib/" "../" "vendors/" "index.html" "index.js" "store.js" "components/" "reducer.js" "./")
+ ("/home/nicholass/work/fw-fr-box/bower_components/" (22332 63360 713821 459000) "bootstrap/" "./" "jquery/" "jquery-validation/" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/base/menu/" (22247 23943 862213 770000) "../" ".gitkeep" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/add_statement/" (22306 3232 383634 130000) "template.html" "./" "view.js" "../")
 
- ("/home/nicholass/dev/js/webpack/" (22185 65033 619898 878000) "bundle.js" "content.js" "../" "entry.js" "webpack.config.js" "index.html" "node_modules/" "style.css" "./")
+ ("/home/nicholass/.emacs.d/" (22332 35096 668744 26000) "config/" "elpa/" "project-explorer-cache/" "./" "request/" "session.24c1b1cb7-72fd-40cb-9dd2-2c787b17e6b3" "session.2673a85a3-69f4-4b95-975d-0aea1048cdb7" "tramp" "projectile.cache" "eshell/" "ac-comphist.dat" "ido.last" "../" ".gtkrc" "auto-save-list/" "session.2145a2683-87fd-4449-8541-40464a70ca4a" "ido.last~" "url/" "themes/" "projectile-bookmarks.eld")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/photos/" (21869 43476 675957 997000) "../" "item.html" "list_view.js" "item_view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/" (22331 61778 52297 590000) "template.html" "./" "empty.html" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/components/flowplayer/" (21869 43476 647957 999000) "css/" "../" "images/" "flowplayer.min.js" "./")
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/incidents/" (22332 35061 876642 783000) "filter_by_incident_type_spec.rb" "put_public_spec.rb" "post_disc_spec.rb" "./" "get_kinds_spec.rb" "get_no_cctv_reasons_spec.rb" "put_spec.rb" "get_incidents_sort_by_invalid_param_spec.rb" "get_id_spec.rb" "../" "get_spec.rb" "get_states_spec.rb" "get_stats_spec.rb" "delete_spec.rb" "post_spec.rb")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/" (22192 52754 611692 594000) "../" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/work/fw2-incidents-api/app/" (22297 28810 99556 220000) "./" "mailers/" "adapters/" "workers/" "serializers/" "services/" "controllers/" "models/" "views/" "../" "helpers/" "transmitters/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/videos/" (21869 43476 675957 997000) "../" "item.html" "list_view.js" "item_view.js" "./")
+ ("/home/nicholass/work/fw2-incidents-api/spec/" (22297 28810 135556 267000) "config/" "./" "lib/" "adapters/" "factories/" "acceptance/" "abilities/" "workers/" "spec_helper.rb" "services/" "models/" "factories_spec.rb" "support/" "../" "database_spec.rb" "helpers/" "fixtures/" "transmitters/")
 
- ("/home/nicholass/fw/frontend/src/store/" (22195 21888 865171 90000) "../" "configureStore.dev.js" "configureStore.js" "configureStore.prod.js" "./")
+ ("/home/nicholass/work/fw2-incidents-api/" (22323 15363 152515 940000) "config/" "app/" "Gemfile.lock" "./" "lib/" "ABILITIES.md" "log/" "public/" "application.rb" "Rakefile" "db/" "doc/" "README.md" ".gitignore" "spec/" ".rvmrc.example" ".pryrc" "../" ".git/" "script/" "config.ru" ".rspec" "Gemfile")
 
- ("/home/nicholass/fw/frontend/src/actions/" (22237 40826 776075 367000) "../" "ApplyFilters.js" "ApplySorting.js" "FetchIncident.js" "FetchPremisesByIncidents.js" "SaveIncident.js" "./" "FetchIncidents.js")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/incident_type/" (22306 2045 777920 912000) "template.html" "./" "incidents_kind_items_warning.html" "view.js" "../")
 
- ("/home/nicholass/fw/frontend/src/constants/" (22237 40828 424077 221000) "../" "Fetch.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/location/" (22306 2222 726104 932000) "template.html" "./" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/frontend/src/components/" (22237 40822 752070 846000) "IncidentsSearchForm.js" "SignInForm.js" "../" "IncidentPage.js" "IncidentsList.js" "ReportIncidentForm.js" "Header.js" "./" "NavBar.js")
+ ("/home/nicholass/opt/src/python/markov-bach/" (22311 15799 264117 561000) "./" "Wtcii01b.xml" "bach-corpus.ipynb" ".ipynb_checkpoints/" "Wtcii01b.mid" "../" "LICENSE" ".git/")
 
- ("/home/nicholass/fw/frontend/config/" (22237 41165 329026 757000) "../" "config.json.example" "config.json" "./")
+ ("/home/nicholass/work/fw2-frontend-app/config/" (22313 58583 383504 331000) "./" "services.yml" "oauth.yml.example" "services.yml.example" "config.json.example" "../" "oauth.yml" "services.json" "config.json")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/components/posters/" (22240 2611 783542 999000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" (22297 26761 280842 841000) "template.html" "./" "empty.html" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/helpers/" (22240 2611 783542 999000) "ability_helper.js" "../" "entities_remote_data.js" "subjects_helper.js" "enums_helper.js" "main_helper.js" "staff_roles_helper.js" "dom_helper.js" "./" "dates_helper.js" "urls_helper.js")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/" (22269 38901 323181 107000) "./" "controller.js" "models/" "views/" "../" "ws_client.js" "collections/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/print_poster/" (22242 38338 279002 496000) "../" "template.html" "image.html" "view.js" "./" "incident_date.html")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/upcoming_events/" (22331 60346 628968 370000) "template.html" "./" "view.js" "entities.html" "event_details.html" "../" "empty_list.html")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/layouts/main/" (22239 37945 793994 404000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/incident_edit_button/" (22269 38901 303180 969000) "template.html" "./" "view.js" "../")
 
- ("/home/nicholass/fw/fr-app/" (22247 24309 228387 648000) "package.json" "../" "npm-debug.log" ".gitignore" ".git/" "node_modules/" "README.md" "bundles/" "tools/" ".babelrc" "assets/" "app/" "config/" ".editorconfig" "./" ".nvmrc.example" "build/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/" (22269 38901 303180 969000) "./" "../" "incident_edit_button/")
 
- ("/home/nicholass/fw/fr-app/app/lib/" (22247 23943 866213 799000) "../" "composeUrl.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/premises/show/" (22269 38901 311181 24000) "template.html" "./" "page.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/table/" (22247 23943 866213 799000) "../" ".gitkeep" "./")
+ ("/home/nicholass/work/fr-app/app/components/lib/form/" (22287 32914 69024 56000) "./" ".gitkeep" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/list/" (22247 23943 862213 770000) "../" "base-list/" ".gitkeep" "./")
+ ("/home/nicholass/work/fr-app/config/common/" (22324 34045 94937 697000) "webpack.js" "./" "base.js" "base.js.example" "settings.js" "routes.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/lib/form/" (22247 23943 862213 770000) "../" ".gitkeep" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/" (22277 47094 393572 553000) "template.html" "./" "components/" "page.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/fr/" (22247 23943 862213 770000) "../" "match-box/" "page/" "./")
+ ("/home/nicholass/work/fw2-incidents-api/app/controllers/" (22323 15374 608559 674000) "incident_kind_sets_controller.rb" "./" "group_data_controller.rb" "subjects_controller.rb" "photos_controller.rb" "victims_controller.rb" "user_shares_controller.rb" "top_subjects_controller.rb" "statements_controller.rb" "videos_controller.rb" "police_forces_controller.rb" "incidents_controller.rb" "warning_markers_controller.rb" "subject_features_controller.rb" "suggestions_controller.rb" "notifications_controller.rb" "suggestion_items_controller.rb" "possible_matches_controller.rb" "item_details_controller.rb" "../" "items_controller.rb" "incident_dvds_controller.rb" "reports/" "features_controller.rb" "fnpr_match_controller.rb" "group_subjects_controller.rb" "file_repositories_controller.rb")
 
- ("/home/nicholass/fw/fr-app/app/components/core/" (22247 23943 862213 770000) "../" "root/" "app/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/incident/" (22269 38901 299180 941000) "template.html" "./" "page.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/base/" (22247 23943 862213 770000) "../" "footer/" "header/" "menu/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/" (22277 51902 756920 532000) "template.html" "./" "empty.html" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fr-app/app/components/" (22247 23943 862213 770000) "lib/" "../" "base/" "fr/" "./" "core/")
+ ("/home/nicholass/work/fr-app/app/components/core/root/" (22321 7989 400560 313000) "./" "../" "index.js")
 
- ("/home/nicholass/fw/" (22247 23933 218136 319000) "../" "cookbooks/" "frontend/" "test-front/" "fr-app/" "fw2-corporate-cms/" "opscode/" "fw2-frontend-app/" "./")
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/" (22323 15374 608559 674000) "authentication_spec.rb" "features_spec.rb" "./" "subject_features_spec.rb" "police_forces_spec.rb" "statements_spec.rb" "group_data_spec.rb" "incident_kind_sets/" "file_respositories_spec.rb" "fnpr/" "suggestions_spec.rb" "item_details_spec.rb" "data_weeding_spec.rb" "videos_spec.rb" "possible_matches_spec.rb" "user_shares_spec.rb" "incident_dvds_spec.rb" "incidents/" "victims_spec.rb" "subjects/" "../" "notifications_spec.rb" "suggestion_items_spec.rb" "reports/" "photos/" "warning_markers/" "top_subjects_spec.rb" "group_subjects_spec.rb" "items_spec.rb")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/sharing/" (21947 12129 964767 131000) "empty_list.html" "../" "template.html" "modals/" "page.js" "components/" "entities.html" "./")
+ ("/home/nicholass/work/fr-app/app/components/core/app/" (22325 44023 813078 263000) "./" "../" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/print_banning_letter/" (21869 43476 679957 997000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fr-app/app/components/fr/page/" (22324 34045 94937 697000) "./" "style.scss" "../" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/" (22052 63039 356499 249000) "../" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/work/fr-app/app/components/base/header/" (22324 34045 94937 697000) "./" ".gitkeep" "style.scss" "../" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/banning_letters/" (22052 63039 356499 249000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fr-app/config/" (22324 34193 971013 103000) "./" "current/" "testing/" "development/" "../" "production/" "common/" "config.json")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/weed/" (22196 42062 959259 312000) "../" "template.html" "modals/" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/components/item/" (22269 38901 315181 52000) "template.html" "./" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/items/" (21869 43476 679957 997000) "../" "empty.html" "template.html" "modals/" "view.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/staff/components/staff_item/" (22269 38901 291180 886000) "./" "view.js" "user_sign_ins.html" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/" (21869 43476 683957 997000) "../" "banning_letters/" "details/" "weed/" "victims/" "police/" "subjects_sharing/" "videos/" "subjects/" "items/" "statements/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/" (22269 38901 323181 107000) "police_force_name.html" "entity_details/" "./" "role_window.html" "pagination_label.html" "subject_photos/" "entity_avatar/" "event_details.html" "../" "role_checkbox.html" "subject_photo.html" "entity_profile_link/" "subject_thumb.html" "video_link.html")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/" (22196 42062 959259 312000) "../" "template.html" "page.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/" (22269 38901 323181 107000) "./" "../" "shared/" "layouts/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/shared/" (22165 18631 219736 16000) "views/" "collections/" "../" "models/" "controller.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/" (22279 45777 512657 117000) "helper.js" "config/" "./" "sandbox.js" "entities/" "packages/" "mixins/" "nls/" "config.js" "localization.js" "components/" "controls/" "router.js" "session.js" "application.js" "plugins/" "templates/" "services/" "../" "utils/" "shared/" "layouts/" "helpers/" "screens/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/mixins/" (22196 42062 819259 195000) "accept_reject.js" "../" "settings_options_view.js" "subject_details.js" "autofetchable.js" "advanced_filters_toggle.js" "password_mask_toggle.js" "avatar_preview.js" "persist_file_token.js" "subject_selectable.js" "save_matching_data.js" "sortable.js" "sortable_ui.js" "pagination.js" "response_handler.js" "./" "store_search_query.js")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/" (22269 38901 275180 775000) "download_file_link/" "legal_banner/" "./" "subject_state/" "subject_similar/" "groups_unsigned_terms_counter/" "redactor/" "logger/" "subject_photos/" "main_menu/" "subject_warning_markers/" "incident_button/" "new_staff_modal/" "entities_remote_data/" "subject/" "right_sidebar/" "add_notification/" "screencap/" "short_user_data/" "loading_notice/" "important_notice/" "subject_public/" "esri_maps/" "add_post/" "group_requests/" "group_signed_terms_status/" "subject_sharing/" "breadcrumb/" "group_newsletter_settings/" "subject_search_area/" "add_alert/" "loading.js" "attachments_repo/" "notifier/" "video_modal/" "logger_popup_switcher/" "custom_police_incident_types/" "custom_incident_types/" "tabs/" "video_file/" "file_repositories/" "groups_staff_status/" "../" "group_staff_status/" "full_page_loading/" "comments/" "inactivity/" "custom_good_types/" "upcoming_events/" "short_entity_data/" "group_style/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/" (22129 62211 627216 236000) "../" "subject_details/" "print_poster/" "similar_subjects/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/" (22269 38901 271180 748000) "./" "item/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/components/" (21869 43476 687957 997000) "index_matching_button/" "posters/" "posters_button/" "../" "top_subjects_button/" "index_matching/" "top_subjects/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/" (22269 38901 291180 886000) "template.html" "./" "components/" "_mixins/" "modals/" "page.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/" (21869 43476 687957 997000) "../" "template.html" "view.js" "components/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/" (22269 38901 291180 886000) "premises/" "./" "documents/" "staff/" "events/" "pages/" "settings/" "modals/" "sharing/" "posts/" "../" "_shared/" "index/" "show/" "descendants/" "edit/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/" (21869 43476 687957 997000) "search_form/" "../" "item/" "toolbar/" "./")
+ ("/etc/apt/" (22328 56842 141689 11000) "preferences.d/" "apt.conf.d/" "sources.list" "sources.list~" "trusted.gpg.d/" "trusted.gpg~" "trusted.gpg" "../" "listchanges.conf" "./" "sources.list.d/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/" (22196 42062 979259 329000) "empty_list.html" "../" "template.html" "page.js" "components/" "entities.html" "./")
+ ("/etc/" (22328 56879 109797 679000) "motd" "texmf/" "libreoffice/" "drirc" "group" "ghostscript/" "subgid-" "mailname" "environment" "python3.4/" "speech-dispatcher/" "dpkg/" "hosts.allow" "modprobe.d/" "ufw/" "crontab" "zsh/" "gtk-3.0/" "locale.alias" "java-8-openjdk/" "rpc" "cups/" "rc6.d/" "magic" "debian_version" "sound/" "hostname" "vpnc/" "init.d/" "at-spi2/" "apache2/" "cupshelpers/" "pulse/" "sysctl.conf" "usb_modeswitch.conf" "grub.d/" "mailcap.order" "alternatives/" "pd/" "nanorc.dpkg-dist" "java-7-openjdk/" "ld.so.conf" "logrotate.conf" "gshadow-" "udev/" "os-release" "bindresvport.blacklist" "sensors.d/" "securetty" "insserv.conf" "inputrc" "kernel/" "gss/" "opt/" "rmt" "xml/" "vmware-tools/" "cron.weekly/" "logrotate.d/" "aliases" "modules" "ImageMagick-6/" "network/" "ssh/" "Muttrc" "rc2.d/" "rc5.d/" "binfmt.d/" "python/" "iproute2/" "shadow" "mtab" "mime.types" "emacs/" "profile.d/" "perl/" ".java/" "chatscripts/" "selinux/" "cron.monthly/" "gai.conf" "sudoers.d/" "insserv/" "rc3.d/" "cron.hourly/" "protocols" "bash.bashrc" "dhcp/" "rcS.d/" "obex-data-server/" "emacs24/" "sysctl.d/" "timezone" "ODBCDataSources/" "gnome-vfs-2.0/" "group-" "localtime" "NetworkManager/" "resolvconf/" "rc1.d/" "lxdm-environment" "initramfs-tools/" "adduser.conf" "sudoers" "wgetrc" "networks" "gimp/" "icedtea-web/" "exim4/" ".pwd.lock" "libaudit.conf" "fuse.conf" "xfce4/" "subgid" "hp/" "firefox-esr/" "python2.7/" "resolv.conf" "odbc.ini" "hosts.deny" "passwd-" "libpaper.d/" "iceweasel/" "logcheck/" "ucf.conf" "shells" "xdg/" "libnl-3/" "init/" "adjtime" "newt/" "python3.5/" "ssl/" "ca-certificates.conf.dpkg-old" "rc0.d/" "subuid-" "manpath.config" "idmapd.conf" "at.deny" "calendar/" "reportbug.conf" "fonts/" "services" "shadow-" "sgml/" "lightdm/" "wpa_supplicant/" "gshadow" "host.conf" "apparmor.d/" "ld.so.cache" "udisks2/" "w3m/" "crypttab" "default/" "magic.mime" "UPower/" "foomatic/" "lighttpd/" "menu/" "ifplugd/" "rc4.d/" "login.defs" "rsyslog.conf" "rc.local" "updatedb.conf" "dictionaries-common/" "vim/" "dkms/" "terminfo/" "ca-certificates.conf" "PackageKit/" "hddtemp.db" "sensors3.conf" "groff/" "iscsi/" "ppp/" "vdpau_wrapper.cfg" "matplotlibrc" "ld.so.conf.d/" "polkit-1/" "skel/" "locale.gen" "ca-certificates/" "bash_completion" "anacrontab" "console-setup/" "avahi/" "request-key.d/" "insserv.conf.d/" "ldap/" "menu-methods/" "openal/" "bluetooth/" "papersize" "machine-id" "subuid" "nanorc" "netconfig" "printcap" "cron.daily/" "security/" "hosts" "gnome-vfs-mime-magic" "mailcap" "ansible/" "email-addresses" "mke2fs.conf" "mail.rc" "sane.d/" "firebird/" "issue" "X11/" "bonobo-activation/" "cron.d/" "apm/" "rsyslog.d/" "systemd/" "gconf/" "pnm2ppa.conf" "java-sun/" "tmpfiles.d/" "staff-group-for-usr-local" "plymouth/" "profile" "debconf.conf" "dbus-1/" "Muttrc.d/" "issue.net" "lvm/" "bash_completion.d/" "apt/" "python3/" "lxdm/" "odbcinst.ini" "fstab" "modules-load.d/" "usb_modeswitch.d/" "xpdf/" "passwd" "nsswitch.conf" "pam.d/" "pam.conf" "libao.conf" "gtk-2.0/" "mc/" "mysql/" "deluser.conf" "../" "./")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" (21947 12097 20586 791000) "confirmed_identity/" "../" "search_areas/" "features/" "suggestions/" "incidents/" "./")
+ ("/home/" (22267 6489 666407 358000) "./" "nicholass/" "../" "lost+found/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" (22196 42063 3259 349000) "../" "template.html" "page.js" "components/" "./")
+ ("/home/nicholass/work/fr-app/app/components/lib/auth/" (22324 34045 94937 697000) "./" "actions.js" "operate.js" "style.scss" "constants.js" "../" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" (22001 37344 666534 406000) "index/" "matching/" "matched/" "../" "show/" "search_areas/" "modals/" "_shared/" "warning_markers/" "associates/" "sharing_exclusions/" "./")
+ ("/home/nicholass/work/fr-app/app/components/lib/" (22324 34045 94937 697000) "./" "table/" "auth/" "form/" "../" "list/")
 
- ("/home/nicholass/fw/frontend/" (22237 40985 68474 449000) "src/" "package.json" "../" "index.ejs" ".gitignore" ".git/" "node_modules/" "README.md" ".babelrc" "config/" ".eslintrc" "webpack.config.dev.js" "./" "webpack.config.prod.js" ".eslintignore" "server.js")
+ ("/home/nicholass/work/fr-app/app/" (22324 34045 94937 697000) "./" "lib/" "index.html" "components/" "reducer.js" "vendors/" "../" "store.js" "index.js")
 
- ("/home/nicholass/dev/node/" (22229 31384 208539 294000) "screenshot.js" "grabber/" "../" "index.js" "НВЧ.ods" "./" "weather.png")
+ ("/home/nicholass/work/fr-app-2/app/components/fr/page/" (22323 17497 411913 684000) "./" "style.scss" "../" "index.js")
 
- ("/home/nicholass/dev/node/grabber/" (22229 49785 90964 829000) "package.json" "../" "node_modules/" "index.js" "dump.pcap" "./")
+ ("/home/nicholass/work/fr-app-2/app/components/fr/" (22323 17497 411913 684000) "./" "match-box/" "../" "page/")
 
- ("/home/nicholass/dev/js/chrome_ext/make_page_red/" (22168 16754 647619 271000) "../" "manifest.json" "./" "background.js")
+ ("/home/nicholass/work/fr-app-2/app/components/lib/" (22323 17528 788020 265000) "./" "table/" "auth/" "form/" "../" "list/")
 
- ("/home/nicholass/Загрузки/" (22229 31180 240173 821000) "audio_2016-02-26_12-58-12.ogg" "Karst.djvu" "reglament.doc" "Vvedenie_v_teoriyu_avtomatov_yazykov_i_vychisleni.pdf" "websdr_recording_2015-06-18T14-28-55Z_7050.0kHz.wav" "takeout-20160101T160456Z-6.zip" "Акция для группона.doc" "book1396243 (1).torrent" "doc_357716.rtf" "банер--30-.png" "лХЙНТКНПЮ ЛНПЕИ яяяп (юПРЕЛВСЙ м.ъ., 1981).djvu" "HTML_Editor.zip" "logo.svg" "IMG_0612.JPG" "[rutracker.org].t5123377.torrent" "orion_viewer_0.55.2_arm7.apk" "NeverwinterNights2v1.22.1588NoCDFixedexeEng.rar" "[rutracker.org].t5120466.torrent" "torrent_-_Mir_matematiki_Seria_t_1-45_torrent (1).torrent" "tickets (4).html" "cs-1013-pistolsonly.rar" "BaiduRoot_2.8.3_Rus (1).apk" "he_basket.zip" "12633238_914828775280256_1069632170_o.jpg" "You.are.Empty_RePack.torrent" "libgcrypt11_1.5.0-5+deb7u3_i386.deb" "kievskaya-starina.zip" "Бодрийяр Жан. Прозрачность зла - royallib.com.html.zip" "audio_2016-02-26_13-04-22.ogg" "miui_HMNote2Global_V7.1.3.0.LHMMICK_8f1ce11602_5.0.zip" "скачанные файлы (3).jpg" "cs-1735-fy_floodingrats.rar" "03svgino.zip" "steam_latest.deb" "audio_2016-02-26_12-59-11.ogg" "recovery.img" "BQpVPs3YX1Y.jpg" "kolektor_stefanyka.jpg" "VIDEO0137[1].mp4" "_x6UjuMS90s.jpg" "internet-versia.pdf" "sitkareva_o_v_kievskaya_krepost_xviii_xix_vv.pdf" "kollektors.bmp" "fy_snowplace_sym.bsp" "R3Setup_E.exe" "audio_2016-02-26_13-06-20.ogg" "android_Labs_TheActivityClass_TheActivityClass.zip" "ebookdroid-1.6.4-dev-r2069.apk" "Заява ДМС_вклеювання фотокартки до паспорта громадянина України.jpeg" "Prfil_kanalizatsiya.dwg" "скачанные файлы.jpg" "2.pto" "4._proekt_dohovoru (1).doc" "cs-2805-fy_snow_boom_blood.zip" "50661.ppt" "1695-plan_kieva_ushakova.pdf" "de_vegas.wad.zip" "audio_2016-02-26_13-01-21.ogg" "CURRICULUMVITAE.doc (1).pdf" "Bogdanov_K_A_Povsednevnost_i_mifologia_Ter.pdf" "15 Каналізація (1).pdf" "audio_2016-02-26_13-01-00.ogg" "geodata (1).txt" "Genplan_kanalizatsia.dwg" "neverwinter nights 2 - complete edition 2006.zip" "cutsofguilt_artwork.jpeg" "audio_2016-02-26_13-02-01.ogg" "emacs-lisp-man.pdf" "ooo2gd_3.0.0.oxt" "PROKhODKA.dwg" "MediaGet_id3345940ids2s.exe" "20090801200032!Reise,_Reise.jpg" "doc_345721.rtf" "лечащий врач.doc" "twrp-3.0.0-0-armani.img" "Sublime Text 2.0.2 x64.tar.bz2" "Titillium_Web.tar.gz" "images.zip" "fest_rm_contest_cut.gif" "BXMUk9BT1K.png" "awp_city.zip" "xfce4-run.desktop" "12656131_916335791796221_308774497_o.jpg" "cs-1564-fy_poolparty (1).rar" "Main_test.apk" "1900-vidy-kieva.pdf" "book1396243.torrent" "signedcom.ideashower.readitlater.pro_1.apk" "CV_Igor_Glubochenko.docx" "Заява ДМС_вклеювання фотокартки до паспорта громадянина України (1).jpeg" "FBReaderJ_android1.5.apk" "pd+controller (1).zip" "centuries.zip" "audio_2016-02-26_13-01-59.ogg" "Lotman_Yu_M_Semiosfera.pdf" "MykolaViktorovychKorobko-CV.pdf" "TON-_stroitelstvo_metro_i_tonneley.doc" "maps.zip" "de_metrobud.rar" "12596984_10201371646728960_103102115_o.jpg" "MykolaViktorovychKorobko-CV(1).pdf" "libed_situation_center (1).jpg" "woman-showing-disgust-new-site-297x300.jpg" "EnemCv_R_ed.gif" "159304-NumixHolo (1).7z" "dxm_faq.doc" "book-1525.djvu" "tt_kuban_rm (1).png" "[BiGTORRENT.ORG]yae1.3.iso.torrent" "audio_2016-02-26_13-02-16.ogg" "dig-contest2014.zip" "2._opys_predmetu_zakupivli.doc" "cs-2982-fy_deagle_dustworld2_dm.zip" "elektronni_tor__struktsiya.pdf" "kolektor_stefanyka (1).jpg" "12510809_904268206336313_1279462548_o.jpg" "takeout-20160101T160456Z-5.zip" "kievrelief.gif" "audio_2016-02-26_12-59-15.ogg" "[rutracker.org].t5142974 (1).torrent" "google-chrome-stable_current_amd64.deb" "Центурии.doc" "Парк-Лыбидь.-Листы-все-1-16.pdf" "Holiday_Calender_2014.xls" "boltiansky-nagl-topo.djvu" "audio_2016-02-26_13-05-51.ogg" "2_DEGENDE1103_.doc" "takeout-20160101T160456Z-8.zip" "great_cave.zip" "poster showlogo.png" "12637071_914828575280276_1692550509_o.jpg" "doc_351035.rtf" "BoardigPass.pdf" "out.gif" "FBReaderJ_ice-cream-sandwich.apk" "цПХАШ (тЕДНПНБ т.б.).pdf" ".~lock.radioscanner_base_2014-05-06 (1).xls#" "vodokanal_books.rar" "Borodin_P_M_-_Etyudy_o_mutantakh_M__1983.djvu" "volnovodii_i_obemniie_rezonatorii (1).pdf" "ReLaunch-1.3.8.apk" "SMEStorage.OpenOffice.oxt" "land-pers-prem.doc" "fest_rm_contest.gif" "audio_2016-02-26_12-58-01.ogg" "Metropia.2009.720p.BDRip.mkv (1).crdownload" "АНКЕТА_Житлово-комунальна інспекція.docx" "15 Каналізація.pdf" "10.rar" "klov_rm_upd3.gif" "cs-1461-fy_bunker_bridge.rar" "IhorCVv1.0.pdf" "audio_2016-02-26_12-56-55.ogg" "takeout-20160101T160456Z-4.zip" "audio_2016-02-26_12-56-40.ogg" "Учись аккомпанировать на гитаре. В.Манилов.7-е 2008.djvu" "front 2.06.26 PM.zip" "Заява ДМС_вклеювання фотокартки до паспорта громадянина України (2).jpeg" "Daniil_Andreev._Roza_Mira_htm.rar" "ReLaunch_1.3.10.apk" "fy_kitchen_2.rar" "7.130---02.mp3" "Проект-Відродження-Новый_ред.06.01.16 (1).docx" "torrent_-_Mir_matematiki_Seria_t_1-45_torrent.torrent" "takeout-20160101T160456Z-2.zip" "Проект-Відродження-Новый_ред.06.01.16 (2).docx" "11402366_839869972776399_4989625501777014059_o.jpg" "Deglin_V_L_Lektsii_o_funktsionalnoy_asimmetrii.djvu" "Філософський зміст проблеми буття.doc" "audio_2016-02-26_13-01-10.ogg" "results-2015.xlsx" "Teylor_S__red__-_Politika_za_30_sekund_Uznat.pdf" "Screenhero-setup.exe" "ReLaunch-1.3.3.apk" "tipr.zip" "[torrentino-net]-neverwinter-nights-2-gold-edition-pc.torrent" "The Martian by_IVAN@190282.mkv" "NeverwinterNights2v1.22.1587NoCDFixedexeEng.rar" "ReLaunch_1.3.11.apk" "gimp_instagram_effects.zip" "history-11-07-2014.kml" "teamviewer_10.0.46203_i386.deb" "audio_2016-02-26_12-57-58.ogg" "doc_345720.rtf" "Жак Лакан - Функция и поле речи и языка в психоанализе.doc" "12633178_914828568613610_1081353335_o.jpg" "You_Are_Empty_Lossless_RePack.iso.torrent" "1385686_839869972776399_4989625501777014059_n.jpg" "KakChitatArhitekturu.pdf" "ReLaunch-1.3.8 (1).apk" "akadem_istok_rm (1).gif" "buzzer.ogg.m3u" "R3_Sound_Editor_Ver_101 _633660007470190000.zip" "Проект-Відродження_ред.18.12.2015-1.docx" "ng2-root-2014-02-04.tar.bz2" "cs-3436-fy_paintballarena_v2.zip" "f442792n97.pdf" "[rutracker.org].t4795194.torrent" "1898874_10153840275492923_7785846334169047627_o.jpg" "cs-1582-cs_deagle5 (1).rar" "Проект-Відродження-Новый_ред.06.01.16-3.docx" "14363054254953.jpg" "LR_samoplinna_kanalizatsiya.xlsx" "gheleznodor.zip" "PASPORTKARTINKA.docx" "allbest-o-00057743.zip" "ECWJP2SDKSetup_5.1.1.bin" "tickets (2).html" "cs-1564-fy_poolparty.rar" "google-earth-stable_current_amd64.deb" ".~lock.radioscanner_base_2014-05-06.xls#" "Read_It_Later_Pro_1.2.1.apk" "[rutracker.org].t5142974.torrent" "39581653_1203733734_charlz.jpg" "лечащий врач.1.doc" "скачанные файлы (1).jpg" "upload-750090cb-e1c9-43f6-9aca-700c902fb747" "оПНaeНКФЕМeЕ-ййк-aeЕЛeЕБЯЙaЪ-бaЯeКueЙНБЯЙaЪ.txt" "Main_test (1).apk" "kart05.jpg" "audio_2016-02-26_12-57-05.ogg" "Geguzin_Zhivoy_kristall.djvu" "29925_You_Are_Empty-M.torrent" "159304-NumixHolo.7z" "Roboto.zip" "obr2000x_ru.jpg" "вкус-здоровья.png" "adom_linux_debian_64_1.2.0_pre23.tar.gz" "11.rar" "461_-kot-knigovod.r.fb2" "fy_poolparty_3.zip" "e-ProVisa Form_Kyiv_UA.doc" "awp_2fort.zip" "de_metros.zip" "d27b5b14-6108-45b5-906c-5fdec6afc5e9.pdf" "doc_357613.rtf" "libed_situation_center.jpg" "4._proekt_dohovoru.doc" "teamviewer-teamviewer10.desktop" "main-expanded.png" "doc_345721 (1).rtf" "libed_situation_center_v1 (1).jpg" "Wizz Air.html" "cs-1560-fy_dinoiceworld.rar" "audio_2016-02-26_12-58-05.ogg" "takeout-20160101T160456Z-7.zip" "Феодосию в КЫИВ.zip" "Pocket+5.7.1.apk" "Wizz Air_files/" "ng2-root-2014-02-04/" "cs-1563-fy_party.rar" "cs-3435-fy_out.zip" "[torrentino-net]-you-are-empty.torrent" "Проект-Відродження-Новый_ред.06.01.16.docx" "Aphex Twin - Computer Controlled Acoustic Instruments Pt2 EP (320) 2015/" "linux-x64-11_binding (1).node" "linux-x64-11_binding.node" "akadem_istok_rm.gif" "takeout-20160101T160456Z-3.zip" "elevation-map-kiev-srtm-30m-2000px.png" "karty.zip" "cs-2984-fy_winter2.zip" "тКНПЮ ЦПХАНБ сЙПЮХМШ. дХЮОНПРЮКЭМШЕ ЦПХАШ (лЕПЕФЙН р.ю., яЛШЙ к.б., 1990).djvu" "ge7.1.1.1580-0.x86_64-new-qt-libs-debian7-ubuntu12.tar.xz" "тКНПЮ ЦПХАНБ сЙПЮХМШ. яТЕПНОЯХДЮКЭМШЕ ЦПХАШ (лЕПЕФЙН р.ю., 1980).djvu" "Gravity Falls - Второй сезон (Сыендук)/" "allbest-o-00251199.zip" "orion_viewer_0.55.2_arm5.apk" "12631164_914828778613589_235177847_o.jpg" "[rutracker.org].t4919747.torrent" "acis_logo.eps" "Проект-Відродження-Новый_ред.25.01.16-КАТЯ.docx" "cs-1582-cs_deagle5.rar" "cs-1455-fy_assault.rar" "audio_2016-02-26_13-01-19.ogg" "11412115_839869989443064_8097592178005653314_o.jpg" "FBReaderJ.apk" "17 Теплопостачання.pdf" "dprmu_2014_26_10.pdf" "tsetup.0.8.57.tar.xz" "audio_2016-02-26_13-01-14.ogg" "radioscanner_base_2014-05-06 (1).xls" "patch_notes_v122.rtf" "мЕЯЗЕДНАМШЕ, ЪДНБХРШЕ Х ЦЮККЧЖХМНЦЕММШЕ ЦПХАШ ЛНЯЙНБЯЙНИ НАКЮЯРХ (бХЬМЕБЯЙХИ л.б., 2001) (1).pdf" "great_cave_rm_upd1.png" "update.zip" "159304-NumixHolo (2).7z" "libed_situation_center_v1.jpg" "12630989_914828571946943_1177428610_o.jpg" "ge7.1.1.1580-0.x86_64-new-qt-libs-debian7-ubuntu12.README" "аХНКНЦХЪ БШЯЬХУ ЦПХАНБ (рХРЮЕБ A.A., 1976).djvu" "BaiduRoot_2.8.3_Rus.apk" "tickets (3).html" "cs-2964-fy_new_pool_day2.zip" "лендинг лечащий врач.doc" "EBookDroid_1.6.6.apk" "Ckhema_putevogo_razvitia_Moskva_na_2015_god.bmp" "takeout-20160101T160456Z-9.zip" "36.rar" "Button_Savior_(Root)_PRO_v2.1.1_RUS.apk" "GuitarExtended-BoldAsLove.pd" "альбомы.png" "71-1433922829.docx" "radioscanner_base_2014-05-06.xls" "audio_2016-02-26_13-02-14.ogg" "966bee74-5548-4a83-aadd-f75ca673d8fc.pdf" "2003 - Winter in the belly of a snake/" "fy_snowplace_sym.txt" "MidiOrgan.zip" "vech_rm.gif" "AcidJs.TablePainter.zip" "Ogitsky_D_p_Elementarny_Kurs_Grecheskogo_Yazyka.djvu" "Doschova_kanalizatsiya.doc" "audio_2016-02-26_12-58-16.ogg" "CV-MykolaKorobko.pdf" "1371560025_tom-kruz-mem.jpg" "[rutracker.org].t5148694.torrent" "websdr_recording_2015-07-21T12-06-36Z_7011.5kHz.wav" "Psihopaticheskie_konstitucii.html" "istok_rm_upd.gif" "poster logo.png" "kali-linux-1.1.0-i386.torrent" "мЕЯЗЕДНАМШЕ, ЪДНБХРШЕ Х ЦЮККЧЖХМНЦЕММШЕ ЦПХАШ ЛНЯЙНБЯЙНИ НАКЮЯРХ (бХЬМЕБЯЙХИ л.б., 2001).pdf" "3P8YHup6bTE.jpg" "1846-kiev-map-flat.zip" "book1396243 (2).torrent" "ge.kml" "Zametki_o_filosofii_psikhologii_pdf.pdf" "libed_alpha_tmp.jpg" "Project (2).zip" "1.informatsiya__yh_torhiv.docx" "cs-973-fy_houseofdeath_night2.rar" "GoPro+2.8.1340.apk" "1695-plan_kieva_ushakova (1).pdf" "fy_snowplace_sym.wad" "[rutracker.org].t1535370.torrent" "doc_363947.rtf" "volnovodii_i_obemniie_rezonatorii.pdf" "cs-2983-fy_snow3.zip" "Порядок розміщення реклами в місті Києві.doc" "zUMfOXgeSV.png" "11b162a1-9909-46e6-8af5-7618bf408903.tiff" "takeout-20160101T160456Z.zip" "doc_357717.rtf" "Veltischev_N_F_-_Mezometeorologicheskie_protsessy.djvu" "listen.pls" "geo006.zip" "imgo.jpg" "Овруч.zip" "11938100_937257326335323_7736613136549375279_n.jpg" "tickets (7).html" "takeout-20160101T160456Z-11.zip" "frag_kab.rar" "Lama_Ole_Nidal_-_Kakim_vse_yavlyaetsya.doc" "[rutracker.org].t4444134.torrent" "STO_NOSTROJ_Podv_tonneli.doc" "GuitarExtended-SimpleDelay.pd" "перевод.txt" "make_page_red.zip" "анна-енаки.pdf" "IMG_0453.JPG" "tickets (5).html" "cs-3451-fy_baga_4p_xmas.zip" "Vishnevskii_Mihail_Nesedobnye_yadovitye_i_gallucinogennye_griby_Moskovskoi_oblasti_Litmir.net_bid251306_original_195fa.pdf.zip" "urfil116.zip" "BoardigPass (1).pdf" "Neverwinter_Nights_2.torrent" "GOPR1350.lrv" "receipt(s).pdf" "CURRICULUMVITAE.doc.pdf" "cs-1530-fy_snowplace_sym.rar" "takeout-20160101T160456Z-10.zip" "pd+controller.zip" "FolderSync_v2.7.9.91_.apk" "pd-alternative-themes.tar" "poster2.png" "nevod_rm.zip" "neizved_rm.png" "Gravity Falls season 1 480p/" "fy_blueprint.zip" "ПЕРЕКЛАД - ВИСНОВОК ВК - 25.06.15.pdf" "Antologia_frantsuzskogo_syurrealizma.pdf" "fy_smg.zip" "eres-o-kieve.pdf" "FBReaderJ_nst.apk" "audio_2016-02-26_13-10-50.ogg" "Проект-Відродження_ред.18.12.2015-1.pdf" "Cavad_Recebov_ve_Sazmen_Mubariz_SUPER_ŞOU.mp3" "[rutracker.org].t4847733.torrent" "ReLaunch.apk" "Blavatskaya_E_P__Puasson_A__Shvarts_F_Teorii_i.pdf" "16 Дощова каналізація.pdf" "geodata.txt" "скачанные файлы (2).jpg" "kali-linux-1.1.0a-i386.torrent" "tt_kuban_rm.png" "tickets (1).html" "audio_2016-02-26_12-58-09.ogg" "15 Каналізація.tiff" "upload-3f1fd52d-9f3c-4015-b07f-de9af87886ae.pd" "Vvedenie_v_evolyutsionnuyu_lingvistiku.djvu" "11399740_991912044155127_1333130078_n.gif" "1.rar" "5._informatsiy__daruvannya.pdf" "repository.seppius.zip" "1910-putevoditel-po-lavre.pdf" "Концепція-відродження-малих-річок-Києва.pptx" "tickets (6).html" "dropbox_2015.10.28_amd64.deb" "wittgenstein.jpg" "plan-1-Model.pdf" "eYl-9BFKSXY.jpg" "hs_err_pid10455.log" "51.rar" "ECONOMIC_COMMENTARY.doc" "SICP Russian.pdf" "zaplyv1015.zip" "1.pto" "Telegram Desktop/" "doc_349145.rtf" "1906-Turau_E_F_K_istorii_kievskogo_pogroma.pdf" "ReLaunch-1.3.8 (2).apk" "kollektors (1).bmp" "coil.7z" "12636927_914828771946923_33733878_o.jpg" "[rutracker.org].t5145412.torrent" "backboneSample.zip" "Falkovskii-Istoriia-vodosnabzheniia-v-Rossii-1947.pdf" "12.rar" "NeverwinterNights2v1.06.980ProperWorkingNoCDFixedexeRus.rar" "Desmond_Morris_-_Biblia_yazyka_telodvizheny.pdf" "audio_2016-02-26_12-57-55.ogg" "Урбанизация.odt" "1418609660_neverwinter-nights2-complete-edition.torrent" "audio_2016-02-26_13-01-06.ogg" "tickets.html" "audio_2016-02-26_12-56-47.ogg" "Main_test (2).apk" "audio_2016-02-26_12-59-17.ogg" "Takeout/" "Pocket_4.6.3_RUS.apk" "../" "./")
+ ("/home/nicholass/work/fr-app-2/app/components/lib/auth/" (22323 18660 855580 453000) "./" "actions.js" "operate.js" "style.scss" "constants.js" "../" "index.js")
 
- ("/home/nicholass/dev/" (22224 22182 467161 177000) "gdal/" "android/" "../" "sandbox/" "c/" "scan.txt" "node/" "ruby/" "front/" "vkus/" "js/" "scan.16" "golang/" "./" "python/")
+ ("/home/nicholass/work/fr-app-2/config/common/" (22323 17497 419913 712000) "webpack.js" "./" "base.js.example" "settings.js" "routes.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/" (22224 28549 558455 12000) "../" "crossdomain.xml" "images/" "robots.txt" "index.html" "apple-touch-icon.png" "stylesheets/" "components/" "bower_components/" "javascripts/" "./")
+ ("/home/nicholass/work/fr-app-2/config/" (22323 17497 419913 712000) "./" "testing/" "development/" "../" "production/" "common/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/" (22224 28549 558455 12000) "../" "template.html" "comments.html" "view.js" "components/" "post_button_delete.html" "entities.html" "./" "list.html")
+ ("/home/nicholass/work/fr-app-2/app/" (22323 17935 157345 70000) "./" "lib/" "index.html" "components/" "reducer.js" "vendors/" "../" "store.js" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/entities_remote_data/" (22224 28549 558455 12000) "attachments_view.js" "posts_view.js" "../" "data_files_view.js" "view.js" "./")
+ ("/home/nicholass/work/fr-app-2/" (22323 17497 419913 712000) "bundles/" "config/" "app/" ".editorconfig" "./" "package.json" ".babelrc" "assets/" "build/" "README.md" ".gitignore" "tools/" ".nvmrc.example" "../" ".git/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/premises/" (22224 28569 54498 124000) "empty_list.html" "../" "template.html" "page.js" "entities.html" "./")
+ ("/home/nicholass/work/fr-app-2/app/components/" (22323 17497 411913 684000) "base/" "./" "lib/" "fr/" "core/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/base/" (22224 28549 558455 12000) "../" "empty.html" "template.html" "list_view.js" "empty_view.js" "./")
+ ("/home/nicholass/work/fr-app-2/app/components/core/" (22323 17497 411913 684000) "app/" "./" "root/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/auth/sign_in/" (21869 43476 667957 998000) "../" "template.html" "page.js" "./")
+ ("/home/nicholass/work/fr-app-2/app/components/core/app/" (22323 17497 411913 684000) "./" "../" "index.js")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/services/" (22224 27759 924662 334000) "auth.js" "incident.js" "../" "group_staff.js" "group_requests.js" "subject.js" "./" "user.js")
+ ("/home/nicholass/work/fr-app-test/app/components/core/" (22267 36942 763841 224000) "app/" "./" "root/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -11,7 +11,8 @@ xset s off
 xset dpms 0 0 0
 xset -dpms
 xinput set-prop TPPS/2 IBM TrackPoint Device Accel Constant Deceleration 0.40
-yeahconsole &
+#run yeahconsole with tmux inside
+# yeahconsole -e tmux attach &
 
 emacs --daemon
 

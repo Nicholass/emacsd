@@ -2,88 +2,503 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/" . "_mixins/")
+ ("/home/nicholass/work/fw-fr-box/node_modules/" . "request/")
+ ("/home/nicholass/work/fw-fr-box/bower_components/" . "bootstrap/")
+ ("/home/nicholass/work/fw-fr-box/" . "node_modules/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/" . "incident_edit_button/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/" . "entity_profile_link/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/" . "shared/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/" . "pages/")
+ ("/sudo::/etc/" . "apt/")
+ ("/sudo::/" . "etc/")
+ ("/home/nicholass/work/fr-app-2/app/components/fr/" . "page/")
+ ("/home/nicholass/work/fr-app-2/app/components/" . "fr/")
+ ("/home/nicholass/work/fr-app-2/app/" . "components/")
+ ("/home/nicholass/work/fr-app-2/config/" . "common/")
+ ("/home/nicholass/work/fr-app-2/" . "config/")
+ ("/home/nicholass/work/fr-app/app/components/lib/list/" . "base-list/")
+ ("/home/nicholass/work/fr-app/app/components/fr/" . "page/")
+ ("/home/nicholass/work/fr-app/app/components/core/" . "app/")
+ ("/home/nicholass/work/fr-app/app/components/base/" . "header/")
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/" . "incidents/")
+ ("/home/nicholass/work/fw2-incidents-api/app/" . "controllers/")
+ ("/home/nicholass/work/fw2-incidents-api/spec/" . "acceptance/")
+ ("/home/nicholass/work/fw2-incidents-api/" . "app/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/entities/" . "collections/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/components/" . "user_news_post_updater/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/" . "components/")
+ ("/home/nicholass/work/fr-app/app/components/lib/" . "auth/")
+ ("/home/nicholass/work/fr-app/app/components/" . "lib/")
+ ("/home/nicholass/work/fr-app/app/" . "components/")
+ ("/home/nicholass/opt/src/python/" . "markov-bach/")
+ ("/home/nicholass/opt/src/" . "python/")
+ ("/home/nicholass/opt/" . "src/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/" . "statement_item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/" . "add_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/" . "mixins/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/modals/" . "add_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/" . "statements/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" . "print_statement/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/item/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/components/" . "alerts/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/" . "index/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" . "suggestions/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/" . "views/")
+ ("/home/nicholass/work/fr-app/config/" . "common/")
+ ("/home/nicholass/work/fr-app/" . "config/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/" . "entities_remote_data/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/" . "print_poster/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/" . "item/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/index/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/" . "index/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/" . "base/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/" . "statements/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/" . "components/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "modals/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/" . "groups/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/" . "templates/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/" . "app/")
+ ("/home/nicholass/work/fw2-frontend-app/app/" . "javascripts/")
+ ("/home/nicholass/work/fw2-frontend-app/" . "app/")
+ ("/home/nicholass/work/fr-app-test/app/components/core/" . "app/")
+ ("/home/nicholass/work/fr-app-test/app/components/" . "core/")
+ ("/home/nicholass/work/fr-app-test/app/" . "components/")
+ ("/home/nicholass/work/fr-app-test/" . "app/")
+ ("/home/nicholass/work/" . "fw2-frontend-app/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/alerts/" . "show/")
+ ("/home/nicholass/fw/fr-app/config/" . "testing/")
+ ("/home/nicholass/fw/fr-app/app/components/base/" . "menu/")
+ ("/home/nicholass/fw/fr-app/app/components/fr/" . "page/")
+ ("/home/nicholass/fw/fr-app/app/components/lib/list/" . "base-list/")
+ ("/home/nicholass/fw/fr-app/app/components/lib/" . "list/")
+ ("/home/nicholass/fw/fr-app/app/components/core/" . "root/")
+ ("/home/nicholass/fw/fr-app/app/components/" . "lib/")
+ ("/home/nicholass/fw/fr-app/app/" . "components/")
+ ("/home/nicholass/fw/fr-app/" . "config/")
+ ("/home/nicholass/Dropbox/" . "org/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/layouts/" . "main/")
+ ("/home/nicholass/fw/frontend/src/" . "containers/")
+ ("/home/nicholass/fw/frontend/" . "src/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/components/" . "user_news_post_updater/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/user_news/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/components/" . "alerts/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/index/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/home/" . "index/")
+ ("/home/nicholass/dev/js/chrome_ext/" . "anti_market/")
+ ("/home/nicholass/dev/js/" . "reuks/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/auth/" . "sign_in/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/screens/" . "home/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/users/show/components/" . "toggle_suspension/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/users/show/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/users/" . "index/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/components/" . "no_cctv_reason/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/videos/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/modals/" . "add_statement/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/components/" . "item/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/" . "modals/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects/components/suggestions/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/item/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/components/item/components/" . "simple/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/components/item/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/" . "item/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/" . "add_statement/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/" . "statements/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/" . "add_statement/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/" . "statements/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/show/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/form/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "show/")
+ ("/home/nicholass/dev/vkus/site/public/scripts/" . "jquery/")
+ ("/home/nicholass/dev/vkus/site/public/" . "scripts/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/show/" . "components/")
+ ("/home/nicholass/dev/vkus/site/assets/" . "css/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/" . "base/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/location/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/matching/" . "_shared/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/matched/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/components/" . "flowplayer/")
+ ("/home/nicholass/dev/vkus/site/" . "public/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/config/" . "jquery/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/_shared/components/" . "tablepicker/")
+ ("/home/nicholass/dev/front/Tipr 2.0.1/" . "tipr/")
+ ("/home/nicholass/dev/front/" . "Tipr 2.0.1/")
+ ("/home/nicholass/Загрузки/" . "Telegram Desktop/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/components/" . "posters/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/toolbar/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/components/" . "toolbar/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/_shared/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/index/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/modals/" . "print_poster/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/" . "components/")
+ ("/home/nicholass/fw/opscode/fw-play/roles/application/" . "tasks/")
+ ("/home/nicholass/fw/opscode/fw-play/roles/" . "application/")
+ ("/home/nicholass/fw/opscode/fw-play/" . "roles/")
+ ("/home/nicholass/fw/opscode/" . "fw-play/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/lib/" . "tasks/")
+ ("/home/nicholass/dev/vkus/node-lending/" . "public_html/")
+ ("/home/nicholass/dev/vkus/" . "site/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/settings/components/" . "branding/")
+ ("/home/nicholass/fw/fw2-corporate-cms/app/assets/" . "javascripts/")
+ ("/home/nicholass/fw/fw2-corporate-cms/app/views/" . "shared/")
+ ("/home/nicholass/fw/fw2-corporate-cms/app/" . "assets/")
+ ("/home/nicholass/fw/fw2-corporate-cms/" . "config/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/index/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/_shared/components/" . "group_property_checkboxes/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/_shared/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/settings/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/groups/" . "premises/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/pages/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/descendants/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/settings/components/" . "good_types/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/settings/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/_shared/components/" . "group_property_checkboxes/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/_shared/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/modals/" . "new/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/groups/" . "settings/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/packages/" . "incidents/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/app/" . "packages/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/javascripts/" . "app/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/app/" . "javascripts/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/item/components/" . "simple/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/item/" . "components/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/test/" . "functional/")
+ ("/home/nicholass/fw/test-front/fw2-frontend-app/" . "app/")
+ ("/home/nicholass/fw/test-front/" . "fw2-frontend-app/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/stylesheets/app/" . "ui/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/stylesheets/" . "app/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/subjects/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/components/" . "entities_remote_data/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/modals/" . "add_statement/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/statements/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/_shared/" . "base/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/subjects/modals/" . "add_subject/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/subjects/" . "components/")
+ ("/home/nicholass/dev/AejisTest/" . "app/")
+ ("/home/nicholass/dev/" . "node/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/subjects/show/" . "incidents/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/subjects/" . "show/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects_sharing/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects_sharing/components/" . "banning_block/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects_sharing/components/sharing_block/components/" . "sharing_groups/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects_sharing/components/sharing_block/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects/components/" . "suggestions/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/subjects/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/" . "media_repository/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/form/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/suggestions/components/" . "item/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/suggestions/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/incidents/components/" . "map/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/incidents/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/incidents/show/" . "items/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/incidents/" . "show/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/packages/" . "groups/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/specs/" . "packages/")
+ ("/home/nicholass/fw/fw2-frontend-app/test/" . "specs/")
+ ("/home/nicholass/fw/" . "fw2-frontend-app/")
+ ("/home/nicholass/fw/fw2-frontend-app/" . "config/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/" . "details/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/show/" . "components/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/shared/" . "views/")
  ("/" . "home/")
  ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/" . "models/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" . "subject_suggestion/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "modals/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" . "confirmed_identity/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" . "print_statement/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/" . "show/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" . "suggestions/")
  ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" . "components/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" . "show/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" . "subjects/")
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" . "entities/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" . "modals/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" . "home/")
+ ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" . "config/")
  ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" . "app/")
  ("/home/nicholass/fw/fw2-frontend-app/app/" . "javascripts/")
  ("/home/" . "nicholass/")
- ("/home/nicholass/" . ".emacs.d/")
+ ("/home/nicholass/" . "work/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/nicholass/.org/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_profile_link/"
  "/home/nicholass/"
- "/home/nicholass/.emacs.d/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/confirmed_identity/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/collections/"
- "/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/subject_suggestion/"
+ "/home/nicholass/work/fw-fr-box/"
+ "/pi@"
+ "/ssh:pi@"
+ "/sudo::/etc/hostapd/"
+ "/home/nicholass/work/fw-fr-box/node_modules/request/"
+ "/home/nicholass/work/fw-fr-box/bower_components/bootstrap/"
+ "/home/nicholass/work/fw2-frontend-app/"
+ "/home/nicholass/work/fw2-incidents-api/app/controllers/"
+ "/home/nicholass/work/fw2-incidents-api/spec/acceptance/incidents/"
+ "/home/nicholass/work/fw2-incidents-api/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/views/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/item/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/helpers/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/entities_remote_data/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/premises/show/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/components/item/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_details/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/staff/components/staff_item/"
+ "/home/"
+ "/home/nicholass/Завантажене/"
+ "/home/nicholass/work/"
+ "/sudo:fgsfds:/etc/apt/"
+ "/sudo::/etc/apt/"
+ "/etc/apt/"
+ "/sudo:fgsfds:"
+ "/sudo:/"
+ "/home/nicholass/work/fr-app/config/"
+ "/home/nicholass/work/fr-app/app/components/lib/auth/"
+ "/home/nicholass/work/fr-app/app/components/base/header/"
+ "/home/nicholass/work/fr-app-2/app/components/fr/page/"
+ "/home/nicholass/work/fr-app/app/components/fr/page/"
+ "/home/nicholass/work/fr-app-2/config/common/"
+ "/home/nicholass/work/fr-app-2/app/"
+ "/home/nicholass/work/fr-app/app/"
+ "/home/nicholass/work/fr-app/app/components/core/app/"
+ "/home/nicholass/work/fr-app-test/app/components/core/app/"
+ "/home/nicholass/work/fw2-incidents-api/spec/acceptance/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/print_statement/"
+ "/home/nicholass/work/fr-app/app/components/core/root/"
+ "/home/nicholass/work/fr-app/app/components/lib/list/base-list/"
+ "/home/nicholass/work/fr-app/app/components/base/footer/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/add_statement/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/statement_item/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/"
+ "/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "dissertation.org"
+ "user.html"
  ".emacs"
- "ac-comphist.dat"
- ".main.org"
- "subject.js"
- "page.js"
- "view.js"
- "suggestion_item.js"
- "suggestion.js"
- "confirmed_suggestion.js"
+ "conf-template.js"
+ "config.json"
+ "192.168.1.67"
+ "package.json"
+ "hostapd.conf"
+ ".alprd.conf"
+ "bower.json"
+ "index.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/subject_suggestion/" (21918 64185 188027 386000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/_mixins/" (22269 38901 287180 858000) "./" "list.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/confirmed_identity/" (21921 38242 245871 400000) "../" "template.html" "view.js" "./")
+ ("/home/nicholass/work/fw2-frontend-app/" (22340 9889 701703 91000) "gulpfile.js" "Brewfile" "config/" "test/" "app/" "Gemfile.lock" "./" "Gruntfile.js" "lib/" "bower.json" ".nvmrc" "package.json" "node_modules/" "doc/" "README.md" ".gitignore" "temp/" ".bowerrc" "tasks" "../" ".sass-cache/" ".git/" "Gemfile")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/" (21919 3924 554011 804000) "../" "template.html" "page.js" "components/" "./")
+ ("/home/nicholass/" (22340 10429 369425 961000) ".Xdefaults" ".thumbnails/" "digg/" ".keys/" "Завантажене/" ".steampid" ".selected_editor" ".v8flags.4.5.103.35.nicholass.json" ".nano/" ".TelegramDesktop/" "./" ".gnupg/" ".gstreamer-0.10/" ".emacs.d/" ".zshrc.old" ".wine/" ".adobe/" ".profile" ".oracle_jre_usage/" ".dmrc" ".gimp-2.8/" ".Xauthority" ".iBank2" ".aptitude/" ".pulse-cookie" ".ICEauthority" "opt/" ".zlogin" ".dropbox-dist/" ".bashrc" ".gem/" ".ipython/" ".zsh_history" ".dropbox/" ".node_repl_history" ".ssh/" ".bash_profile" ".zcompdump" ".zshrc.completion" "Шаблони/" "Музика/" "Відео/" ".mozilla/" ".quodlibet/" ".bash_history" ".icons/" "Загальне/" ".gnome/" ".steam/" ".ansible/" ".berkshelf/" "Картинки/" ".mkshrc" "Dropbox/" ".music21rc" ".tmux.conf" ".pki/" ".config/" ".npm/" ".w3m/" ".rvm/" ".dbus/" ".xfce4-session.verbose-log" ".jackdrc" ".xsession-errors.old" ".xsessionrc" ".xfce4-session.verbose-log.last" ".zsh_nocorrect" "../" ".gconf/" "Стільниця/" ".xsession-errors" ".macromedia/" ".themes/" ".java/" ".local/" ".git/" ".bash_logout" ".audacity-data/" "rosegarden/" "Документи/" ".xscreensaver" ".cache/" ".gnome2_private/" ".zshrc" ".gnome2/" "work/" "deb-multimedia-keyring.deb" ".emacs" ".steampath")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/models/" (21923 28594 476439 126000) "post.js" "user_sign_in.js" "postcode.js" "user_title.js" "area.js" "incident.js" "membership.js" "../" "alert.js" "user_setting.js" "premises.js" "item.js" "district.js" "pages_attachment.js" "subject_feature.js" "reset_password_users.js" "access_token.js" "group_subject.js" "suggestion.js" "top_subject.js" "incident_dvd.js" "video.js" "event.js" "group_document.js" "branding.js" "subject_statistics.js" "membership_request.js" "resend_confirmation_users.js" "incident_statistics.js" "data_file.js" "trail.js" "page.js" "comment.js" "victim.js" "staff.js" "group_type.js" "staff_request.js" "item_detail.js" "incident_kind_set.js" "confirm_users.js" "police_force.js" "batch_job.js" "alert_confirmation.js" "subject.js" "photo.js" "./" "social_attachment.js" "user.js" "feature.js" "confirmed_suggestion.js" "site.js" "suggestion_item.js" "incident_kind.js" "user_news.js" "group.js" "statement.js")
+ ("/home/nicholass/work/fw-fr-box/" (22340 10347 154174 633000) "gulpfile.js" "bower_components/" "./" "logo.png" "bower.json" "index.html" "package.json" "node_modules/" "dump.rdb" "conf-template.js" "../" "index.js" ".git/" "static/" "config.json")
 
- ("/home/nicholass/" (21923 44915 935987 379000) ".PyCharm30/" ".gdocs.lang" ".ipython/" ".zsh_history" ".gnome2/" ".emacs~.old" ".dbus/" "котишка.pdf" ".audacity-data/" ".bashrc" "../" "TUTORIAL.ru~" ".wishrc.tcl" ".selected_editor" ".quodlibet/" "Документы/" ".wine/" "Видео/" "workspace/" ".gtk-bookmarks" ".pd/" "лечащий врач.doc" "Загрузки/" ".PlayOnLinux/" "tmux-client-4732.log" ".npm/" ".emacs.d/" ".ICEauthority" ".pswd" ".lesshst" ".xscreensaver" ".adom.data/" ".mkshrc" "droid_mp/" ".android/" ".gitconfig" ".gem/" "pd_lib/" ".local/" ".emacs~" ".themes/" ".pki/" "котишка.tif" ".mozilla/" "Andrii Trykush. CV.pdf" ".xsessionrc" ".Skype/" ".icons/" "PlayOnLinux's virtual drives/" ".atom/" ".WebStorm10/" ".zcompdump" "ZOOM0022.WAV" ".swt/" ".cache/" "TUTORIAL.ru" "котишка.png" "ru_RU.UTF-8" ".xsession-errors" ".pip/" "лечащий врач.1.doc" ".macromedia/" ".fltk/" ".sane/" "dev/" "PycharmProjects/" ".w3m/" ".xfce4-session.verbose-log" "Вопросы.doc" ".berkshelf/" "IMG_20150513_161600.jpg" "Изображения/" "Рабочий стол/" ".zlogin" ".xsession.old" ".rvm/" ".git-credential-cache/" "Музыка/" ".wireshark/" "Шаблоны/" ".aptitude/" ".xfce4-session.verbose-log.last" ".bash_profile" ".mongorc.js" ".main.org" ".eclipse/" ".profile" "my games/" ".dbshell" ".emacs" ".gnome/" ".bash_logout" "backup.img" ".gnome2_private/" "fw/" ".xsession-errors.old" ".zshrc" ".Xdefaults" "Музей воды/" "Sublime Text 2/" ".gdocs.dat" ".gstreamer-0.10/" ".Xauthority" ".config/" ".thumbnails/" ".ardour2/" "WebstormProjects/" "Общедоступные/" ".jackdrc" "games/" "Скидки от.doc" ".dmrc" ".gconf/" ".gimp-2.8/" "./" ".gnupg/" "tmux-server-4734.log" ".pdsettings" ".java/" ".screenlayout/" ".#.main.org" "dead.letter" ".nano/" ".bash_history" ".tmux.conf" ".adobe/" ".ssh/" "VirtualBox VMs/" "Neverwinter Nights 2/")
+ ("/home/nicholass/Завантажене/" (22336 42421 394798 555000) "CS1.6_fy_maps_pack_v1.rar" "162060-numix-colors.tar" "dropbox_2015.10.28_amd64(1).deb" "Telegram Desktop/" "159304-NumixHolo.7z" "czde_dust.wad" "6Wwv2Injc2M.jpg" "google-chrome-stable_current_amd64(1).deb" "fy_stroyka.wad" "54509-etude-4.6.3.5.tar.bz2" "Ди.jpg" "./" "троица.jpg" "2885_awp_monopoly_v2.rar" "maps.rar" "Telegram/" "list6.psd" "list4.psd" "as_tundra.wad" "server-jre-8u77-linux-x64.tar.gz" "dropbox_2015.10.28_amd64.deb" "google-earth-stable_current_amd64.deb" "171329-UniteMod.tar.gz" "175017-PRA-DMZ.tar.gz" "cookbooks.tgz" "list3.psd" "djon_ono_knigi.exe" "ge.kml" "sovka.pdf" "Roboto.zip" "Vivacious-Colors-1-3-GTK-Icon-Theme.tar.gz" "de_vegas.wad" "cookbooks(1).tgz" "intersections.zip" "CS1.6_fy_maps_pack_v1.7z" "Lucid Ambiance for XFCE.tar.gz" "awp_hunter.rar" "_5457-.zip" "169299-numix-cursor.tar.gz" "maps.tgz" "Setup_E.exe" "cs-2744-awp_military_base.zip" "cstrike.tar" "document.pdf" "list1.psd" "evolvere-black-folders-1.1.9.tar.gz" "oracle-java8-server-jre_8u77_amd64.deb" "google-chrome-stable_current_amd64.deb" "steam_latest.deb" "12914892_999711620113620_83856619_o.jpg" "ef1551fc7d3e.png" "awp_forest_cs.rar" "awp_november.zip" "Wtc2midi.zip" "RuoU0tX1dzs.jpg" "CS1.6_awp_maps_pack_v2.7z" "1463394064_242960_46.jpg" "Titillium_Web.tar.gz" "tsetup.0.9.33.tar.xz" "R3_Sound_Editor_Ver_101 _633660007470190000.zip" "awp_valtring(1).zip" "../" "image197.jpg" "awp_parking_3.rar" "ReactOS-0.4.1-REL-iso.zip" "awp_ruins2.zip" "CS1.6_pack_awp_maps_by_Barbie.rar" "Color-UI-theme-project-1.5.1-RPF-2-Build-19.zip" "3f3b4277f1ce27f8_large_copy2.dns4t8l2ih44csok0w4kwc044.ejcuplo1l0oo0sk8c40s8osc4.th.jpeg" "AWP_FERREIRO.zip" "awp_valtring.zip" "12915239_999711433446972_563598430_o.jpg" "1463357987_479985_96.png" "awp_gorodok_night_2.zip" "Agenda_20-27May2016.dotx" "Довідка-Коробку-начання.doc" "AN97-2.4.apk" "fop1+fop2+uo.csv.7z")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/index/" (21910 16381 539185 539000) "empty_list.html" "../" "template.html" "page.js" "components/" "entities.html" "./")
+ ("/home/nicholass/work/fw-fr-box/node_modules/request/" (22333 1802 955186 808000) "request.js" "./" "lib/" ".travis.yml" "package.json" "node_modules/" ".eslintrc" "CHANGELOG.md" "README.md" "../" "index.js" "LICENSE" "CONTRIBUTING.md" ".npmignore")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/" (21869 43476 679957 997000) "../" "print_cctv_statements/" "suggestion_details/" "subject_suggestion/" "media_repository/" "edit_cctv_details/" "download_cctv_footage/" "print_banning_letter/" "print_statement/" "./")
+ ("/home/nicholass/work/fw-fr-box/node_modules/" (22333 5124 395798 151000) "express/" "body-parser/" "gulp-minify-css/" "./" "main-bower-files/" "gulp-bower-files/" "express-generator/" "request/" "redis/" "nodemon/" "gulp-clean-dest/" "gulp-rename/" "gulp-flatten/" "gulp/" ".bin/" "../" "gulp-filter/" "mongoose/" "bower/" "gulp-uglify/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/incidents/" (21869 43476 683957 997000) "index/" "../" "show/" "modals/" "trails/" "./" "form/")
+ ("/home/nicholass/work/fw-fr-box/bower_components/bootstrap/" (22332 62075 629594 444000) "dist/" "fonts/" "./" "Gruntfile.js" "package.js" "nuget/" "bower.json" "package.json" ".bower.json" "js/" "CHANGELOG.md" "README.md" "../" "less/" "LICENSE" "grunt/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/show/components/" (21898 45580 907570 152000) "confirmed_identity/" "../" "search_areas/" "features/" "suggestions/" "incidents/" "./")
+ ("/home/nicholass/work/fw-fr-box/bower_components/" (22332 63360 713821 459000) "bootstrap/" "./" "jquery/" "jquery-validation/" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/subjects/" (21869 43476 691957 996000) "index/" "matching/" "matched/" "../" "show/" "search_areas/" "modals/" "_shared/" "associates/" "sharing_exclusions/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/modals/add_statement/" (22306 3232 383634 130000) "template.html" "./" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/packages/" (21869 43476 691957 996000) "statistics/" "../" "groups/" "police/" "home/" "users/" "subjects/" "incidents/" "auth/" "./" "premises/" "pages/")
+ ("/home/nicholass/.emacs.d/" (22332 35096 668744 26000) "config/" "elpa/" "project-explorer-cache/" "./" "request/" "session.24c1b1cb7-72fd-40cb-9dd2-2c787b17e6b3" "session.2673a85a3-69f4-4b95-975d-0aea1048cdb7" "tramp" "projectile.cache" "eshell/" "ac-comphist.dat" "ido.last" "../" ".gtkrc" "auto-save-list/" "session.2145a2683-87fd-4449-8541-40464a70ca4a" "ido.last~" "url/" "themes/" "projectile-bookmarks.eld")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/collections/" (21917 39589 887562 160000) "group_types.js" "pages_attachments.js" "incident_states.js" "items_product_value.js" "user_titles.js" "suggestions.js" "../" "alerts.js" "videos.js" "access_tokens.js" "memberships.js" "premises.js" "group_descendants.js" "alert_confirmations.js" "fwid_stats.js" "incident_kind_sets.js" "item_details_suggested_names.js" "packages.js" "features.js" "postcodes.js" "police_forces.js" "districts.js" "items.js" "social_attachments.js" "statements.js" "subjects.js" "pages.js" "staff_requests.js" "incident_dvds.js" "user_sign_ins.js" "group_documents.js" "subject_statistics.js" "photos.js" "comments.js" "premises_staff_positions.js" "events.js" "subjects_kinds.js" "trails.js" "no_cctv_reasons.js" "victims.js" "incident_statistics.js" "posts.js" "premises_kinds.js" "top_subjects.js" "premises_stats.js" "staff.js" "areas.js" "group_staff_positions.js" "suggestion_items.js" "user_settings.js" "premises_good_types.js" "items_product_type.js" "incident_frequency.js" "membership_requests.js" "suggestion_items_suggested_names.js" "incident_kinds.js" "sites.js" "./" "groups.js" "confirmed_suggestion.js" "subject_features.js" "incidents.js" "subjects_states.js" "user_news.js" "item_details.js" "subject_states.js" "users.js" "group_subjects.js")
+ ("/home/nicholass/work/" (22332 50994 333321 295000) "./" "fw2-frontend-app/" "node-tutorial-2-restful-app/" "fr-app/" "fw2cd-playbooks/" "cookbooks/" "fw2-incidents-api/" "../" "fw-fr-box/")
 
- ("/home/nicholass/.emacs.d/" (21915 58791 700147 819000) "projectile-bookmarks.eld" "../" "auto-save-list/" "var/" "themes/" "projectile.cache" "request/" "session.2673a85a3-69f4-4b95-975d-0aea1048cdb7" "config/" "elpa/" "ac-comphist.dat" "./" "project-explorer-cache/")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/entities_remote_data/" (22331 61079 269056 319000) "posts_view.js" "./" "view.js" "attachments_view.js" "../" "data_files_view.js")
 
- ("/home/" (21514 14910 815454 373000) "../" "nicholass/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/helpers/" (22331 60758 378972 367000) "subjects_helper.js" "./" "entities_remote_data.js" "main_helper.js" "enums_helper.js" "dom_helper.js" "dates_helper.js" "staff_roles_helper.js" "navigator_helper.js" "../" "urls_helper.js" "ability_helper.js")
 
- ("/home/nicholass/fw/" (21888 10109 303548 712000) "../" "cookbooks/" "fw2-frontend-app/" "./")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/" (22331 61778 52297 590000) "template.html" "./" "empty.html" "components/" "view.js" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/" (21918 16430 23568 542000) "lib/" ".nvmrc" "Gruntfile.js" "temp/" "package.json" "../" "tasks" "test/" ".sass-cache/" ".gitignore" ".bowerrc" ".git/" "node_modules/" "README.md" "Gemfile.lock" "app/" "doc/" "config/" "./" "Gemfile" "bower.json" "Brewfile")
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/item/" (22332 32023 228170 713000) "./" "staff_to_group.html" "member_from_group.html" "view.js" "member_to_group.html" "../")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/" (21888 43293 82359 118000) "../" "crossdomain.xml" "images/" "robots.txt" "index.html" "apple-touch-icon.png" "stylesheets/" "components/" "bower_components/" "javascripts/" "./")
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/incidents/" (22332 35061 876642 783000) "filter_by_incident_type_spec.rb" "put_public_spec.rb" "post_disc_spec.rb" "./" "get_kinds_spec.rb" "get_no_cctv_reasons_spec.rb" "put_spec.rb" "get_incidents_sort_by_invalid_param_spec.rb" "get_id_spec.rb" "../" "get_spec.rb" "get_states_spec.rb" "get_stats_spec.rb" "delete_spec.rb" "post_spec.rb")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/" (21889 25688 951594 393000) "lib/" "../" "require_config.js" "app/" "vendor/" "./" "main.js")
+ ("/home/nicholass/work/fw2-incidents-api/app/" (22297 28810 99556 220000) "./" "mailers/" "adapters/" "workers/" "serializers/" "services/" "controllers/" "models/" "views/" "../" "helpers/" "transmitters/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/" (21889 23895 389117 713000) "controls/" "mixins/" "../" "packages/" "config.js" "utils/" "helper.js" "sandbox.js" "application.js" "screens/" "plugins/" "templates/" "helpers/" "entities/" "layouts/" "config/" "components/" "nls/" "router.js" "services/" "./" "shared/" "localization.js" "session.js")
+ ("/home/nicholass/work/fw2-incidents-api/spec/" (22297 28810 135556 267000) "config/" "./" "lib/" "adapters/" "factories/" "acceptance/" "abilities/" "workers/" "spec_helper.rb" "services/" "models/" "factories_spec.rb" "support/" "../" "database_spec.rb" "helpers/" "fixtures/" "transmitters/")
 
- ("/home/nicholass/fw/fw2-frontend-app/app/javascripts/app/entities/" (21869 43476 663957 998000) "collections/" "../" "models/" "./")
+ ("/home/nicholass/work/fw2-incidents-api/" (22323 15363 152515 940000) "config/" "app/" "Gemfile.lock" "./" "lib/" "ABILITIES.md" "log/" "public/" "application.rb" "Rakefile" "db/" "doc/" "README.md" ".gitignore" "spec/" ".rvmrc.example" ".pryrc" "../" ".git/" "script/" "config.ru" ".rspec" "Gemfile")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/incident_type/" (22306 2045 777920 912000) "template.html" "./" "incidents_kind_items_warning.html" "view.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/location/" (22306 2222 726104 932000) "template.html" "./" "components/" "view.js" "../")
+
+ ("/home/nicholass/opt/src/python/markov-bach/" (22311 15799 264117 561000) "./" "Wtcii01b.xml" "bach-corpus.ipynb" ".ipynb_checkpoints/" "Wtcii01b.mid" "../" "LICENSE" ".git/")
+
+ ("/home/nicholass/work/fw2-frontend-app/config/" (22313 58583 383504 331000) "./" "services.yml" "oauth.yml.example" "services.yml.example" "config.json.example" "../" "oauth.yml" "services.json" "config.json")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/statements/" (22297 26761 280842 841000) "template.html" "./" "empty.html" "components/" "view.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_details/" (22331 58440 279185 81000) "user.html" "./" "../" "group.html" "premises_contacts.html" "premises.html")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/" (22331 56458 707957 995000) "template.html" "./" "components/" "view.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/views/" (22331 54078 852575 703000) "print_modal.js" "./" "widget.js" "index_page.js" "modal.js" "index_widget.js" "page.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/shared/" (22269 38901 323181 107000) "./" "controller.js" "models/" "views/" "../" "ws_client.js" "collections/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/upcoming_events/" (22331 60346 628968 370000) "template.html" "./" "view.js" "entities.html" "event_details.html" "../" "empty_list.html")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/incident_edit_button/" (22269 38901 303180 969000) "template.html" "./" "view.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/show/components/details/components/" (22269 38901 303180 969000) "./" "../" "incident_edit_button/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/premises/show/" (22269 38901 311181 24000) "template.html" "./" "page.js" "../")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/form/" (22287 32914 69024 56000) "./" ".gitkeep" "../")
+
+ ("/home/nicholass/work/fr-app/config/common/" (22324 34045 94937 697000) "webpack.js" "./" "base.js" "base.js.example" "settings.js" "routes.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/home/index/" (22277 47094 393572 553000) "template.html" "./" "components/" "page.js" "../")
+
+ ("/home/nicholass/work/fw2-incidents-api/app/controllers/" (22323 15374 608559 674000) "incident_kind_sets_controller.rb" "./" "group_data_controller.rb" "subjects_controller.rb" "photos_controller.rb" "victims_controller.rb" "user_shares_controller.rb" "top_subjects_controller.rb" "statements_controller.rb" "videos_controller.rb" "police_forces_controller.rb" "incidents_controller.rb" "warning_markers_controller.rb" "subject_features_controller.rb" "suggestions_controller.rb" "notifications_controller.rb" "suggestion_items_controller.rb" "possible_matches_controller.rb" "item_details_controller.rb" "../" "items_controller.rb" "incident_dvds_controller.rb" "reports/" "features_controller.rb" "fnpr_match_controller.rb" "group_subjects_controller.rb" "file_repositories_controller.rb")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/incident/" (22269 38901 299180 941000) "template.html" "./" "page.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/add_statement/" (22277 51902 756920 532000) "template.html" "./" "empty.html" "components/" "view.js" "../")
+
+ ("/home/nicholass/work/fr-app/app/components/core/root/" (22321 7989 400560 313000) "./" "../" "index.js")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/modals/print_statement/" (22321 62367 515474 600000) "./" "simple.html" "footer.html" "view.js" "../" "five_part.html")
+
+ ("/home/nicholass/work/fw2-incidents-api/spec/acceptance/" (22323 15374 608559 674000) "authentication_spec.rb" "features_spec.rb" "./" "subject_features_spec.rb" "police_forces_spec.rb" "statements_spec.rb" "group_data_spec.rb" "incident_kind_sets/" "file_respositories_spec.rb" "fnpr/" "suggestions_spec.rb" "item_details_spec.rb" "data_weeding_spec.rb" "videos_spec.rb" "possible_matches_spec.rb" "user_shares_spec.rb" "incident_dvds_spec.rb" "incidents/" "victims_spec.rb" "subjects/" "../" "notifications_spec.rb" "suggestion_items_spec.rb" "reports/" "photos/" "warning_markers/" "top_subjects_spec.rb" "group_subjects_spec.rb" "items_spec.rb")
+
+ ("/home/nicholass/work/fr-app/app/components/core/app/" (22325 44023 813078 263000) "./" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/app/components/fr/page/" (22324 34045 94937 697000) "./" "style.scss" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/app/components/base/header/" (22324 34045 94937 697000) "./" ".gitkeep" "style.scss" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/config/" (22324 34193 971013 103000) "./" "current/" "testing/" "development/" "../" "production/" "common/" "config.json")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/subjects/associates/components/item/" (22269 38901 315181 52000) "template.html" "./" "view.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/entity_profile_link/" (22331 10925 969400 22000) "user.html" "incident_draft.html" "incident.html" "./" "user_clickover.html" "premises_clickover.html" "subject.html" "soi.html" "../" "group.html" "premises.html" "group_clickover.html")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/staff/components/staff_item/" (22269 38901 291180 886000) "./" "view.js" "user_sign_ins.html" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/shared/" (22269 38901 323181 107000) "police_force_name.html" "entity_details/" "./" "role_window.html" "pagination_label.html" "subject_photos/" "entity_avatar/" "event_details.html" "../" "role_checkbox.html" "subject_photo.html" "entity_profile_link/" "subject_thumb.html" "video_link.html")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/templates/" (22269 38901 323181 107000) "./" "../" "shared/" "layouts/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/" (22279 45777 512657 117000) "helper.js" "config/" "./" "sandbox.js" "entities/" "packages/" "mixins/" "nls/" "config.js" "localization.js" "components/" "controls/" "router.js" "session.js" "application.js" "plugins/" "templates/" "services/" "../" "utils/" "shared/" "layouts/" "helpers/" "screens/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/" (22269 38901 275180 775000) "download_file_link/" "legal_banner/" "./" "subject_state/" "subject_similar/" "groups_unsigned_terms_counter/" "redactor/" "logger/" "subject_photos/" "main_menu/" "subject_warning_markers/" "incident_button/" "new_staff_modal/" "entities_remote_data/" "subject/" "right_sidebar/" "add_notification/" "screencap/" "short_user_data/" "loading_notice/" "important_notice/" "subject_public/" "esri_maps/" "add_post/" "group_requests/" "group_signed_terms_status/" "subject_sharing/" "breadcrumb/" "group_newsletter_settings/" "subject_search_area/" "add_alert/" "loading.js" "attachments_repo/" "notifier/" "video_modal/" "logger_popup_switcher/" "custom_police_incident_types/" "custom_incident_types/" "tabs/" "video_file/" "file_repositories/" "groups_staff_status/" "../" "group_staff_status/" "full_page_loading/" "comments/" "inactivity/" "custom_good_types/" "upcoming_events/" "short_entity_data/" "group_style/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/components/group_requests/components/" (22269 38901 271180 748000) "./" "item/" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/pages/" (22269 38901 291180 886000) "template.html" "./" "components/" "_mixins/" "modals/" "page.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/groups/" (22269 38901 291180 886000) "premises/" "./" "documents/" "staff/" "events/" "pages/" "settings/" "modals/" "sharing/" "posts/" "../" "_shared/" "index/" "show/" "descendants/" "edit/")
+
+ ("/etc/apt/" (22328 56842 141689 11000) "preferences.d/" "apt.conf.d/" "sources.list" "sources.list~" "trusted.gpg.d/" "trusted.gpg~" "trusted.gpg" "../" "listchanges.conf" "./" "sources.list.d/")
+
+ ("/etc/" (22328 56879 109797 679000) "motd" "texmf/" "libreoffice/" "drirc" "group" "ghostscript/" "subgid-" "mailname" "environment" "python3.4/" "speech-dispatcher/" "dpkg/" "hosts.allow" "modprobe.d/" "ufw/" "crontab" "zsh/" "gtk-3.0/" "locale.alias" "java-8-openjdk/" "rpc" "cups/" "rc6.d/" "magic" "debian_version" "sound/" "hostname" "vpnc/" "init.d/" "at-spi2/" "apache2/" "cupshelpers/" "pulse/" "sysctl.conf" "usb_modeswitch.conf" "grub.d/" "mailcap.order" "alternatives/" "pd/" "nanorc.dpkg-dist" "java-7-openjdk/" "ld.so.conf" "logrotate.conf" "gshadow-" "udev/" "os-release" "bindresvport.blacklist" "sensors.d/" "securetty" "insserv.conf" "inputrc" "kernel/" "gss/" "opt/" "rmt" "xml/" "vmware-tools/" "cron.weekly/" "logrotate.d/" "aliases" "modules" "ImageMagick-6/" "network/" "ssh/" "Muttrc" "rc2.d/" "rc5.d/" "binfmt.d/" "python/" "iproute2/" "shadow" "mtab" "mime.types" "emacs/" "profile.d/" "perl/" ".java/" "chatscripts/" "selinux/" "cron.monthly/" "gai.conf" "sudoers.d/" "insserv/" "rc3.d/" "cron.hourly/" "protocols" "bash.bashrc" "dhcp/" "rcS.d/" "obex-data-server/" "emacs24/" "sysctl.d/" "timezone" "ODBCDataSources/" "gnome-vfs-2.0/" "group-" "localtime" "NetworkManager/" "resolvconf/" "rc1.d/" "lxdm-environment" "initramfs-tools/" "adduser.conf" "sudoers" "wgetrc" "networks" "gimp/" "icedtea-web/" "exim4/" ".pwd.lock" "libaudit.conf" "fuse.conf" "xfce4/" "subgid" "hp/" "firefox-esr/" "python2.7/" "resolv.conf" "odbc.ini" "hosts.deny" "passwd-" "libpaper.d/" "iceweasel/" "logcheck/" "ucf.conf" "shells" "xdg/" "libnl-3/" "init/" "adjtime" "newt/" "python3.5/" "ssl/" "ca-certificates.conf.dpkg-old" "rc0.d/" "subuid-" "manpath.config" "idmapd.conf" "at.deny" "calendar/" "reportbug.conf" "fonts/" "services" "shadow-" "sgml/" "lightdm/" "wpa_supplicant/" "gshadow" "host.conf" "apparmor.d/" "ld.so.cache" "udisks2/" "w3m/" "crypttab" "default/" "magic.mime" "UPower/" "foomatic/" "lighttpd/" "menu/" "ifplugd/" "rc4.d/" "login.defs" "rsyslog.conf" "rc.local" "updatedb.conf" "dictionaries-common/" "vim/" "dkms/" "terminfo/" "ca-certificates.conf" "PackageKit/" "hddtemp.db" "sensors3.conf" "groff/" "iscsi/" "ppp/" "vdpau_wrapper.cfg" "matplotlibrc" "ld.so.conf.d/" "polkit-1/" "skel/" "locale.gen" "ca-certificates/" "bash_completion" "anacrontab" "console-setup/" "avahi/" "request-key.d/" "insserv.conf.d/" "ldap/" "menu-methods/" "openal/" "bluetooth/" "papersize" "machine-id" "subuid" "nanorc" "netconfig" "printcap" "cron.daily/" "security/" "hosts" "gnome-vfs-mime-magic" "mailcap" "ansible/" "email-addresses" "mke2fs.conf" "mail.rc" "sane.d/" "firebird/" "issue" "X11/" "bonobo-activation/" "cron.d/" "apm/" "rsyslog.d/" "systemd/" "gconf/" "pnm2ppa.conf" "java-sun/" "tmpfiles.d/" "staff-group-for-usr-local" "plymouth/" "profile" "debconf.conf" "dbus-1/" "Muttrc.d/" "issue.net" "lvm/" "bash_completion.d/" "apt/" "python3/" "lxdm/" "odbcinst.ini" "fstab" "modules-load.d/" "usb_modeswitch.d/" "xpdf/" "passwd" "nsswitch.conf" "pam.d/" "pam.conf" "libao.conf" "gtk-2.0/" "mc/" "mysql/" "deluser.conf" "../" "./")
+
+ ("/home/" (22267 6489 666407 358000) "./" "nicholass/" "../" "lost+found/")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/auth/" (22324 34045 94937 697000) "./" "actions.js" "operate.js" "style.scss" "constants.js" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/" (22324 34045 94937 697000) "./" "table/" "auth/" "form/" "../" "list/")
+
+ ("/home/nicholass/work/fr-app/app/" (22324 34045 94937 697000) "./" "lib/" "index.html" "components/" "reducer.js" "vendors/" "../" "store.js" "index.js")
+
+ ("/home/nicholass/work/fr-app-2/app/components/fr/page/" (22323 17497 411913 684000) "./" "style.scss" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app-2/app/components/fr/" (22323 17497 411913 684000) "./" "match-box/" "../" "page/")
+
+ ("/home/nicholass/work/fr-app-2/app/components/lib/" (22323 17528 788020 265000) "./" "table/" "auth/" "form/" "../" "list/")
+
+ ("/home/nicholass/work/fr-app-2/app/components/lib/auth/" (22323 18660 855580 453000) "./" "actions.js" "operate.js" "style.scss" "constants.js" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app-2/config/common/" (22323 17497 419913 712000) "webpack.js" "./" "base.js.example" "settings.js" "routes.js" "../")
+
+ ("/home/nicholass/work/fr-app-2/config/" (22323 17497 419913 712000) "./" "testing/" "development/" "../" "production/" "common/")
+
+ ("/home/nicholass/work/fr-app-2/app/" (22323 17935 157345 70000) "./" "lib/" "index.html" "components/" "reducer.js" "vendors/" "../" "store.js" "index.js")
+
+ ("/home/nicholass/work/fr-app-2/" (22323 17497 419913 712000) "bundles/" "config/" "app/" ".editorconfig" "./" "package.json" ".babelrc" "assets/" "build/" "README.md" ".gitignore" "tools/" ".nvmrc.example" "../" ".git/")
+
+ ("/home/nicholass/work/fr-app-2/app/components/" (22323 17497 411913 684000) "base/" "./" "lib/" "fr/" "core/" "../")
+
+ ("/home/nicholass/work/fr-app-2/app/components/core/" (22323 17497 411913 684000) "app/" "./" "root/" "../")
+
+ ("/home/nicholass/work/fr-app-2/app/components/core/app/" (22323 17497 411913 684000) "./" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app-test/app/components/core/" (22267 36942 763841 224000) "app/" "./" "root/" "../")
+
+ ("/home/nicholass/work/fr-app-test/app/components/" (22267 36942 763841 224000) "base/" "./" "lib/" "fr/" "core/" "../")
+
+ ("/home/nicholass/work/fr-app-test/app/" (22267 37943 899787 771000) "./" "lib/" "index.html" "components/" "reducer.js" "vendors/" "../" "store.js" "index.js")
+
+ ("/home/nicholass/work/fr-app-test/" (22267 36942 771841 224000) "bundles/" "config/" "app/" ".editorconfig" "./" "package.json" ".babelrc" "assets/" "build/" "README.md" ".gitignore" "tools/" ".nvmrc.example" "../" ".git/")
+
+ ("/home/nicholass/work/fr-app/" (22323 17316 475281 348000) "bundles/" "config/" "app/" ".editorconfig" "./" "package.json" "node_modules/" ".babelrc" "assets/" "build/" "README.md" ".gitignore" "tools/" ".nvmrc.example" "../" ".git/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/" (22269 38901 299180 941000) "incident_type/" "items/" "location_soi/" "created_data/" "./" "media_repository/" "incident_type_soi/" "police/" "date_time/" "victims/" "statements/" "subjects_sharing/" "subjects/" "../" "_shared/" "change_form_type/" "videos/" "location/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/mixins/" (22269 38901 295180 914000) "./" "form.js" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/" (22269 38901 299180 941000) "./" "incident/" "components/" "soi/" "../" "_shared/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/" (22269 38901 307180 997000) "trails/" "./" "modals/" "form/" "../" "index/" "show/")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/" (22269 38901 319181 80000) "premises/" "./" "groups/" "police/" "home/" "pages/" "statistics/" "auth/" "users/" "incidents/" "alerts/" "subjects/" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/" (22269 38901 327181 135000) "main.js" "app/" "./" "lib/" "require_config.js" "vendor/" "../")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/table/" (22287 32914 69024 56000) "./" ".gitkeep" "../")
+
+ ("/home/nicholass/work/fr-app/app/components/base/footer/" (22287 32914 69024 56000) "./" ".gitkeep" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/list/base-list/" (22288 55544 23973 187000) "./" "style.scss" "duck.js" "../" "index.js")
+
+ ("/home/nicholass/work/fr-app/app/components/lib/list/" (22287 32914 69024 56000) "./" ".gitkeep" "../" "base-list/")
+
+ ("/home/nicholass/work/fr-app/app/components/base/menu/" (22287 32914 69024 56000) "./" ".gitkeep" "../")
+
+ ("/home/nicholass/work/fr-app-test/app/components/core/app/" (22267 37943 899787 771000) "./" "../" "index.js")
+
+ ("/home/nicholass/.ssh/" (22267 50320 95636 149000) "config" "./" "id_rsa" "id_rsa.pub" "known_hosts" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/" (22269 42458 164412 849000) "bower_components/" "./" "index.html" "components/" "images/" "javascripts/" "stylesheets/" "crossdomain.xml" "../" "apple-touch-icon.png" "robots.txt")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/components/media_repository/base/" (22315 16439 506435 991000) "template.html" "./" "empty_view.js" "empty.html" "../" "list_view.js")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/entities/models/" (22315 16439 518436 65000) "group_subject.js" "suggestion_item.js" "user_sign_in.js" "event.js" "user_title.js" "item.js" "./" "group_document.js" "site.js" "incident_unikind.js" "premises.js" "access_token.js" "camera.js" "subject_feature.js" "fnpr_match_seen.js" "alert_confirmation.js" "file_repository.js" "post.js" "top_subject.js" "feature.js" "user_setting.js" "district.js" "group.js" "area.js" "user_news.js" "statement.js" "suggestion.js" "staff.js" "staff_request.js" "video.js" "pages_attachment.js" "branding.js" "group_type.js" "fnpr_match_person.js" "victim.js" "subject_statistics.js" "incident.js" "incident_kind.js" "user.js" "police_force.js" "membership_request.js" "photo.js" "incident_kind_set.js" "subject.js" "page.js" "postcode.js" "../" "user_share.js" "membership.js" "resend_confirmation_users.js" "batch_job.js" "confirm_users.js" "incident_dvd.js" "alert.js" "data_file.js" "item_detail.js" "incident_statistics.js" "fnpr_match_vehicle.js" "comment.js" "social_attachment.js" "trail.js" "reset_password_users.js")
+
+ ("/home/nicholass/work/fr-app/app/components/core/" (22287 32914 69024 56000) "app/" "./" "root/" "../")
+
+ ("/home/nicholass/work/fr-app/app/components/fr/" (22287 32914 69024 56000) "./" "match-box/" "../" "page/")
+
+ ("/home/nicholass/work/fr-app/app/components/base/" (22287 32914 69024 56000) "menu/" "header/" "./" "footer/" "../")
+
+ ("/home/nicholass/work/fw2-frontend-app/app/javascripts/app/packages/incidents/form/_shared/components/statement_item/" (22277 50361 767944 585000) "template.html" "./" "view.js" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

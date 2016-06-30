@@ -25,6 +25,9 @@
         (server-start)))
 ;;(require 'midnight)
 
+;; save session
+(desktop-save-mode 1)
+
 ;; Use CL
 (require 'cl)
 (require 'ag)
@@ -104,16 +107,16 @@
 (setq dired-recursive-deletes 'top)
 
 ;; Imenu
-(require 'imenu)
-(setq imenu-auto-rescan      t)
-(setq imenu-use-popup-menu nil)
-(global-set-key (kbd "C-x TAB") 'imenu)
+;;(require 'imenu)
+;;(setq imenu-auto-rescan      t)
+;;(setq imenu-use-popup-menu nil)
+;;(global-set-key (kbd "C-x TAB") 'imenu)
 
 ;; Some i-stuff
-(require 'ibuffer)
-(global-set-key (kbd "C-x C-b") 'ibuffer)
-(require 'ido)
-(ido-mode t)
+;;(require 'ibuffer)
+;;(global-set-key (kbd "C-x C-b") 'ibuffer)
+;;(require 'ido)
+;;(ido-mode t)
 
 ;; Display the name of the current buffer in the title
 (setq frame-title-format "%b - emacs")
@@ -272,8 +275,8 @@
 
 ;; load theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-;(load-theme 'zenburn t)
-(load-theme 'afternoon t)
+(load-theme 'zenburn t)
+;(load-theme 'afternoon t)
 
 ;;(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 
@@ -346,24 +349,99 @@
 ;; Term
 (global-set-key (kbd "C-x t t") 'multi-term)
 
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;; PM stuff -------------------------
 ;; Helm framework
+(require 'helm)
 (require 'helm-config)
+(require 'helm-ag)
+(require 'projectile)
+(require 'helm-swoop)
+(require 'helm-projectile)
+(require 'helm-company)
+(autoload 'helm-company "helm-company")
+(eval-after-load 'company
+  '(progn
+     (define-key company-mode-map (kbd "C-:") 'helm-company)
+     (define-key company-active-map (kbd "C-:") 'helm-company)))
 
-;; projctile to file management in projects
+(global-set-key (kbd "C-c h") 'helm-command-prefix)
+(global-unset-key (kbd "C-x c"))
+
+(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebind tab to run persistent action
+(define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB works in terminal
+(define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
+
+(setq helm-split-window-in-side-p           t ; open helm buffer inside current window, not occupy whole other window
+      helm-move-to-line-cycle-in-source     t ; move to end or beginning of source when reaching top or bottom of source.
+      helm-ff-search-library-in-sexp        t ; search for library in `require' and `declare-function' sexp.
+;      helm-scroll-amount                    8 ; scroll 8 lines other window using M-<next>/M-<prior>
+      helm-ff-file-name-history-use-recentf t)
+
 (projectile-global-mode)
 (setq projectile-enable-caching t)
-(setq projectile-completion-system 'default)
+(setq projectile-switch-project-action 'projectile-dired)
+(setq projectile-remember-window-configs t )
+(setq projectile-completion-system 'helm)
+(setq projectile-switch-project-action 'helm-projectile)
 (setq projectile-indexing-method 'git)
 
-;; neotree
-(require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
-(setq projectile-switch-project-action 'neotree-projectile-action)
-(setq neo-theme 'nerd)
+;; overset standard M-x with helm and turn fuzzymatch on
+(global-set-key (kbd "M-x") 'helm-M-x)
+(setq helm-M-x-fuzzy-match t)
 
+;; overset standard 'finde file' with helm
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
 
+;; Show kill-ring instead just cycling
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+
+;; Overset C-x b
+(global-set-key (kbd "C-x b") 'helm-mini)
+(global-set-key (kbd "C-x C-b") #'helm-buffers-list)
+
+(setq helm-buffers-fuzzy-matching t
+      helm-recentf-fuzzy-match    t)
+
+;; swoop
+;; (global-set-key (kbd "C-c h s") 'helm-swoop)
+;; (global-set-key (kbd "C-c h S") 'helm-multi-swoop)
+(global-set-key (kbd "M-i") 'helm-swoop)
+(global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
+(global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
+(global-set-key (kbd "C-x M-i") 'helm-multi-swoop-all)
+
+;; When doing isearch, hand the word over to helm-swoop
+(define-key isearch-mode-map (kbd "M-i") 'helm-swoop-from-isearch)
+;; From helm-swoop to helm-multi-swoop-all
+(define-key helm-swoop-map (kbd "M-i") 'helm-multi-swoop-all-from-helm-swoop)
+(define-key helm-swoop-map (kbd "M-m") 'helm-multi-swoop-current-mode-from-helm-swoop)
+
+;; Move up and down like isearch
+(define-key helm-swoop-map (kbd "C-r") 'helm-previous-line)
+(define-key helm-swoop-map (kbd "C-s") 'helm-next-line)
+(define-key helm-multi-swoop-map (kbd "C-r") 'helm-previous-line)
+(define-key helm-multi-swoop-map (kbd "C-s") 'helm-next-line)
+;; search in buffer
+(global-set-key (kbd "C-c h o") 'helm-occur)
+
+;; C-c h i to use semantic mode over buffer
+(setq helm-semantic-fuzzy-match t
+      helm-imenu-fuzzy-match    t)
+
+(helm-projectile-on)
+
+(setq tramp-ssh-controlmaster-options
+      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no -o ConnectTimeout=1")
+(require 'tramp)
+(helm-mode 1)
+(helm-autoresize-mode 1)
+
+;; to move text
+(require 'drag-stuff)
+(drag-stuff-global-mode 1)
 ;; Got from here - http://seancribbs.com/emacs.d/#sec-2-4
 
 

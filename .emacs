@@ -1,5 +1,7 @@
 ;; ~/.emacs
 ;; this is free software
+(prefer-coding-system 'utf-8)
+
 (defun system-is-linux ()
     "Linux system checking."
     (interactive)
@@ -27,6 +29,8 @@
 
 ;; save session
 (desktop-save-mode 1)
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
 
 ;; Use CL
 (require 'cl)
@@ -45,7 +49,8 @@
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-
+(add-to-list 'package-archives
+             '("SC"  . "http://joseito.republika.pl/sunrise-commander/") t)
 (setq package-archive-enable-alist '(("melpa" magit )))
 
 (when (not package-archive-contents)
@@ -85,16 +90,16 @@
     ;hlinum
     ;ido-ubiquitous
     magit
-    minimap
-    neotree
+   ;; minimap
+   ;; neotree
     paredit
-    smex
+   ;; smex
     htmlize
 
-    ir-black-theme
-    solarized-theme
-    twilight-theme
-    underwater-theme
+    ;; ir-black-theme
+    ;; solarized-theme
+    ;; twilight-theme
+    ;; underwater-theme
    )
 )
 ;; autoinstall pkgs
@@ -105,20 +110,6 @@
 ;; Dired
 (require 'dired)
 (setq dired-recursive-deletes 'top)
-
-;; Imenu
-;;(require 'imenu)
-;;(setq imenu-auto-rescan      t)
-;;(setq imenu-use-popup-menu nil)
-;;(global-set-key (kbd "C-x TAB") 'imenu)
-
-;; Some i-stuff
-;;(require 'ibuffer)
-;;(global-set-key (kbd "C-x C-b") 'ibuffer)
-;;(require 'ido)
-;;(ido-mode t)
-
-;; Display the name of the current buffer in the title
 (setq frame-title-format "%b - emacs")
 
 ;; Org-mode
@@ -130,7 +121,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
+    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(js2-auto-indent-p t)
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p nil)
@@ -169,6 +160,8 @@
       inhibit-splash-screen t
       inhibit-startup-message t
       initial-scratch-message nil)
+(line-number-mode 1)
+(column-number-mode 1)
 
 (global-highlight-changes-mode t)
 (set-face-foreground 'highlight-changes nil)
@@ -189,26 +182,6 @@
 		(highlight-changes-remove-highlight (point-min) (point-max)))))
 
 (add-hook 'after-save-hook 'highlight-changes-remove-after-save)
-
-;; tabbar
-;(require 'tabbar)
-;    (tabbar-mode t)
-;(global-set-key [M-left] 'tabbar-backward-tab)
-;(global-set-key [M-right] 'tabbar-forward-tab)
-
-;; Tabbar settings
-;(setq tabbar-background-color "#959A79") ;; the color of the tabbar background
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(neo-banner-face ((t :inherit shadow)))
- '(neo-dir-link-face ((t :inherit dired-directory)))
- '(neo-expand-btn-face ((t :inherit button)))
- '(neo-file-link-face ((t :inherit default)))
- '(neo-header-face ((t :inherit shadow)))
- '(neo-root-dir-face ((t :inherit link-visited :underline nil))))
 
 ;; Fringe
 (fringe-mode '(8 . 0))
@@ -275,59 +248,10 @@
 
 ;; load theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(load-theme 'zenburn t)
+(load-theme 'solarized-dark t)
 ;(load-theme 'afternoon t)
 
 ;;(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
-
-;;; tern ----------------------------
-;; (add-to-list 'load-path "/usr/local/lib/node_modules/tern/emacs/")
-;; (autoload 'tern-mode "tern.el" nil t)
-;; (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
-;; (setq tern-command (append tern-command '("--no-port-file")))
-
-
-;; http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-(add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
-(autoload 'jsx-mode "jsx-mode" "JSX mode" t)
-
-;; (defun my-js2-indent-function ()
-;;   (interactive)
-;;   (save-restriction
-;;     (widen)
-;;     (let* ((inhibit-point-motion-hooks t)
-;;            (parse-status (save-excursion (syntax-ppss (point-at-bol))))
-;;            (offset (- (current-column) (current-indentation)))
-;;            (indentation (espresso--proper-indentation parse-status))
-;;            node)
-
-;;       (save-excursion
-
-;;         ;; I like to indent case and labels to half of the tab width
-;;         (back-to-indentation)
-;;         (if (looking-at "case\\s-")
-;;             (setq indentation (+ indentation (/ espresso-indent-level 2))))
-
-;;         ;; consecutive declarations in a var statement are nice if
-;;         ;; properly aligned, i.e:
-;;         ;;
-;;         ;; var foo = "bar",
-;;         ;;     bar = "foo";
-;;         (setq node (js2-node-at-point))
-;;         (when (and node
-;;                    (= js2-NAME (js2-node-type node))
-;;                    (= js2-VAR (js2-node-type (js2-node-parent node))))
-;;           (setq indentation (+ 4 indentation))))
-
-;;       (indent-line-to indentation)
-;;       (when (> offset 0) (forward-char offset)))))
-
-
-(eval-after-load 'tern
-   '(progn
-      (require 'tern-auto-complete)
-      (tern-ac-setup)))
 
 ;; git ------------------------------
 (add-to-list 'load-path "/usr/share/emacs24/site-lisp/git/")
@@ -350,6 +274,7 @@
 (global-set-key (kbd "C-x t t") 'multi-term)
 
 (require 'company)
+(setq company-dabbrev-downcase nil)
 (add-hook 'after-init-hook 'global-company-mode)
 
 ;; PM stuff -------------------------
@@ -444,29 +369,9 @@
 (drag-stuff-global-mode 1)
 ;; Got from here - http://seancribbs.com/emacs.d/#sec-2-4
 
+(load-file "~/.emacs.d/go.el")
+(load-file "~/.emacs.d/js.el")
 
-(setq neo-vc-integration '(face char))
-
-    ;; Patch to fix vc integration
-    (defun neo-vc-for-node (node)
-      (let* ((backend (vc-backend node))
-             (vc-state (when backend (vc-state node backend))))
-        ;; (message "%s %s %s" node backend vc-state)
-        (cons (cdr (assoc vc-state neo-vc-state-char-alist))
-              (cl-case vc-state
-                (up-to-date       neo-vc-up-to-date-face)
-                (edited           neo-vc-edited-face)
-                (needs-update     neo-vc-needs-update-face)
-                (needs-merge      neo-vc-needs-merge-face)
-                (unlocked-changes neo-vc-unlocked-changes-face)
-                (added            neo-vc-added-face)
-                (removed          neo-vc-removed-face)
-                (conflict         neo-vc-conflict-face)
-                (missing          neo-vc-missing-face)
-                (ignored          neo-vc-ignored-face)
-                (unregistered     neo-vc-unregistered-face)
-                (user             neo-vc-user-face)
-                (t                neo-vc-default-face)))))
 
 ;; emacs ends here
 

@@ -4,17 +4,17 @@ xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 8 1
 xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 8 2
 xinput set-int-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 8 6 7 4 5
 xinput set-int-prop "TTPS/2 IBM TrackPoint" "Evdev Axes Swap" 1
+#xinput set-prop TPPS/2 IBM TrackPoint Device Accel Constant Deceleration 0.40
 #"Evdev Axis Inversion" 1 1
 
-xset b off
-xset s off
-xset dpms 0 0 0
-xset -dpms
-xinput set-prop TPPS/2 IBM TrackPoint Device Accel Constant Deceleration 0.40
+#xset b off
+#xset s off
+#xset dpms 0 0 0
+#xset -dpms
 #run yeahconsole with tmux inside
-# yeahconsole -e tmux attach &
+#yeahconsole -e tmux attach &
 
-emacs --daemon
+#emacs --daemon
 
 export ALTERNATE_EDITOR=""
 export EDITOR="emacsclient -t"                  # $EDITOR should open in terminal

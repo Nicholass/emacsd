@@ -121,7 +121,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
+    ("5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(js2-auto-indent-p t)
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p nil)
@@ -256,7 +256,7 @@
 ;; git ------------------------------
 (add-to-list 'load-path "/usr/share/emacs24/site-lisp/git/")
 ;(require 'git)
-(require 'git-blame)
+;(require 'git-blame)
 (require 'magit)
 (setq magit-last-seen-setup-instructions "1.4.0")
 
@@ -359,7 +359,7 @@
 (helm-projectile-on)
 
 (setq tramp-ssh-controlmaster-options
-      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no -o ConnectTimeout=1")
+      "-o ControlMaster=auo -o ControlPath='tramp.%%C' -o ControlPersist=no -o ConnectTimeout=1")
 (require 'tramp)
 (helm-mode 1)
 (helm-autoresize-mode 1)
@@ -369,10 +369,31 @@
 (drag-stuff-global-mode 1)
 ;; Got from here - http://seancribbs.com/emacs.d/#sec-2-4
 
-(load-file "~/.emacs.d/go.el")
-(load-file "~/.emacs.d/js.el")
+(require 'exec-path-from-shell)
+(exec-path-from-shell-initialize)
+(exec-path-from-shell-copy-env "GOPATH")
+
+;;from enberg on #emacs auto close compilation buffer if OK
+(setq compilation-finish-function
+      (lambda (buf str)
+        (if (null (string-match ".*exited abnormally.*" str))
+            ;;no errors, make the compilation window go away in a few seconds
+            (progn
+              (run-at-time
+               "2 sec" nil 'delete-windows-on
+               (get-buffer-create "*compilation*"))
+              (message "No Compilation Errors!")))))
+
+(load-file "~/.emacs.config/go.el")
+(load-file "~/.emacs.config/js.el")
 
 
 ;; emacs ends here
 
 (put 'dired-find-alternate-file 'disabled nil)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

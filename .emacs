@@ -18,7 +18,7 @@
     (string-equal system-type "windows-nt"))
 
 (setq browse-url-browser-function 'browse-url-generic
-      browse-url-generic-program "google-chrome")
+      browse-url-generic-program "firefox")
 
 ;; Start Emacs server. Require Midnight
 (unless (system-is-windows)
@@ -29,6 +29,19 @@
 
 ;; save session
 (desktop-save-mode 1)
+(setq savehist-additional-variables
+      '(kill-ring
+        global-mark-ring
+        search-ring
+        regexp-search-ring
+        file-name-history
+        shell-command-history
+        set-variable-value-history
+        regexp-history
+        compile-history
+        w3m-input-url-history
+        pyvenv-workon-history
+        ))
 (set-language-environment "UTF-8")
 (set-default-coding-systems 'utf-8)
 
@@ -111,9 +124,30 @@
 (require 'dired)
 (setq dired-recursive-deletes 'top)
 (setq frame-title-format "%b - emacs")
+(setq dired-listing-switches "-agG")
+
+(eval-after-load 'image-dired+ '(image-diredx-async-mode 1))
+(eval-after-load 'image-dired+ '(image-diredx-adjust-mode 1))
+(define-key image-dired-thumbnail-mode-map "\C-n" 'image-diredx-next-line)
+(define-key image-dired-thumbnail-mode-map "\C-p" 'image-diredx-previous-line)
+(define-key image-dired-thumbnail-mode-map "g" 'revert-buffer)
+(define-key image-dired-thumbnail-mode-map "x" 'image-diredx-flagged-delete)
+(setq image-dired-track-movement nil)
+(eval-after-load 'image '(require 'image+))
 
 ;; Org-mode
 (require 'org)
+(add-to-list 'auto-mode-alist '("\\.org\\'". org-mode))
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(setq org-tags-column (- 4 (window-width)))
+;; Place tags close to the right-hand side of the window
+(add-hook 'org-finalize-agenda-hook 'place-agenda-tags)
+(defun place-agenda-tags ()
+  "Put the agenda tags by the right border of the agenda window."
+  (setq org-agenda-tags-column (- 4 (window-width)))
+  (org-agenda-align-tags)
+  )
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -141,11 +175,6 @@
 ;;  :auto-preamble t
 ;;  )
 
-(add-to-list 'auto-mode-alist '("\\.org\\'". org-mode))
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
-(setq org-tags-column 100)
-
 ;; Configure GUI components
 (tooltip-mode      -1)
 (menu-bar-mode     -1)
@@ -162,6 +191,8 @@
       initial-scratch-message nil)
 (line-number-mode 1)
 (column-number-mode 1)
+(setq scroll-preserve-screen-position t)
+(setq switch-to-buffer-preserve-window-point t)
 
 (global-highlight-changes-mode t)
 (set-face-foreground 'highlight-changes nil)

@@ -64,6 +64,7 @@
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
              '("SC"  . "http://joseito.republika.pl/sunrise-commander/") t)
+
 (setq package-archive-enable-alist '(("melpa" magit )))
 
 (when (not package-archive-contents)
@@ -135,19 +136,7 @@
 (setq image-dired-track-movement nil)
 (eval-after-load 'image '(require 'image+))
 
-;; Org-mode
-(require 'org)
-(add-to-list 'auto-mode-alist '("\\.org\\'". org-mode))
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
-(setq org-tags-column (- 4 (window-width)))
-;; Place tags close to the right-hand side of the window
-(add-hook 'org-finalize-agenda-hook 'place-agenda-tags)
-(defun place-agenda-tags ()
-  "Put the agenda tags by the right border of the agenda window."
-  (setq org-agenda-tags-column (- 4 (window-width)))
-  (org-agenda-align-tags)
-  )
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -163,7 +152,8 @@
  '(magit-branch-read-upstream-first t)
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
- '(org-directory "/home/nicholass/Dropbox/org"))
+ '(org-directory "/home/nicholass/Dropbox/org")
+ '(web-mode-code-indent-offset 2))
 
 ;; ("org-notes"
 ;;  :base-directory "~/Dropbox/org/"
@@ -262,10 +252,11 @@
 
 ;; Linum plug-in
 (require 'linum)
-(line-number-mode   -1)
+(line-number-mode   t)
 (global-linum-mode  -1)
 (column-number-mode t)
-(setq linum-format " %d")
+(setq linum-format " %6d")
+
 (global-visual-line-mode 1) ; корректный автоперенос
 
 ;; ;; Move lines
@@ -395,6 +386,87 @@
 (helm-mode 1)
 (helm-autoresize-mode 1)
 
+;; YAS
+(require 'yasnippet)
+(yas-global-mode 0)
+;; (defun check-expansion ()
+;;   (save-excursion
+;;     (if (looking-at "\\_>") t
+;;       (backward-char 1)
+;;       (if (looking-at "\\.") t
+;;         (backward-char 1)
+;;         (if (looking-at "->") t nil)))))
+
+;; (defun do-yas-expand ()
+;;   (let ((yas/fallback-behavior 'return-nil))
+;;     (yas/expand)))
+
+;; (defun tab-indent-or-complete ()
+;;   (interactive)
+;;   (cond
+;;    ((minibufferp)
+;;     (minibuffer-complete))
+;;    (t
+;;     (indent-for-tab-command)
+;;     (if (or (not yas/minor-mode)
+;;             (null (do-yas-expand)))
+;;         (if (check-expansion)
+;;             (progn
+;;               (company-manual-begin)
+;;               (if (null company-candidates)
+;;                   (progn
+;;                     (company-abort)
+;;                     (indent-for-tab-command)))))))))
+
+;; (defun tab-complete-or-next-field ()
+;;   (interactive)
+;;   (if (or (not yas/minor-mode)
+;;           (null (do-yas-expand)))
+;;       (if company-candidates
+;;           (company-complete-selection)
+;;         (if (check-expansion)
+;;             (progn
+;;               (company-manual-begin)
+;;               (if (null company-candidates)
+;;                   (progn
+;;                     (company-abort)
+;;                     (yas-next-field))))
+;;           (yas-next-field)))))
+
+;; (defun expand-snippet-or-complete-selection ()
+;;   (interactive)
+;;   (if (or (not yas/minor-mode)
+;;           (null (do-yas-expand))
+;;           (company-abort))
+;;       (company-complete-selection)))
+
+;; (defun abort-company-or-yas ()
+;;   (interactive)
+;;   (if (null company-candidates)
+;;       (yas-abort-snippet)
+;;     (company-abort)))
+
+;; (global-set-key [tab] 'tab-indent-or-complete)
+;; (global-set-key (kbd "TAB") 'tab-indent-or-complete)
+;; (global-set-key [(control return)] 'company-complete-common)
+
+;; (define-key company-active-map [tab] 'expand-snippet-or-complete-selection)
+;; (define-key company-active-map (kbd "TAB") 'expand-snippet-or-complete-selection)
+
+;; (define-key yas-minor-mode-map [tab] nil)
+;; (define-key yas-minor-mode-map (kbd "TAB") nil)
+
+;; (define-key yas-keymap [tab] 'tab-complete-or-next-field)
+;; (define-key yas-keymap (kbd "TAB") 'tab-complete-or-next-field)
+;; (define-key yas-keymap [(control tab)] 'yas-next-field)
+;; (define-key yas-keymap (kbd "C-g") 'abort-company-or-yas)
+
+
+
+;; (add-hook 'multi-term-mode-hook (lambda()
+;;             (yas-minor-mode -1)))
+
+
 ;; to move text
 (require 'drag-stuff)
 (drag-stuff-global-mode 1)
@@ -417,7 +489,8 @@
 
 (load-file "~/.emacs.config/go.el")
 (load-file "~/.emacs.config/js.el")
-
+(load-file "~/.emacs.config/py.el")
+(load-file "~/.emacs.config/org.el")
 
 ;; emacs ends here
 

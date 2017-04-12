@@ -9,7 +9,11 @@
           (message "now set to: %s" web-mode-content-type))))
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . web-mode))
+(setq web-mode-markup-indent-offset 2)
+(setq web-mode-code-indent-offset 2)
+
 (autoload 'jsx-mode "jsx-mode" "JSX mode" t)
 (require 'mmm-mode)
 

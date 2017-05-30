@@ -42,3 +42,21 @@
          ))
 
 (setq org-refile-targets '((org-agenda-files . (:maxlevel . 6))))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(
+   (C . t)
+   (dot . t))
+ )
+
+
+(defun nicholass-fix-inline-images ()
+  (when org-inline-image-overlays
+    (org-redisplay-inline-images)))
+
+(add-hook 'org-babel-after-execute-hook 'nicholass-fix-inline-images)
+
+(defun nicholass-org-confirm-babel-evaluate (lang body)
+  (not (string= lang "dot")))  ; don't ask for ditaa
+(setq org-confirm-babel-evaluate 'nicholass-org-confirm-babel-evaluate)

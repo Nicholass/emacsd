@@ -58,8 +58,9 @@
 (require 'package)
 (package-initialize)
 
+
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
+             '("marmalade" . "https://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
@@ -270,7 +271,7 @@
 
 ;; load theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(load-theme 'solarized-dark t)
+(load-theme 'material t)
 ;(load-theme 'afternoon t)
 
 ;;(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))

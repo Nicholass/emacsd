@@ -18,7 +18,7 @@
     (string-equal system-type "windows-nt"))
 
 (setq browse-url-browser-function 'browse-url-generic
-      browse-url-generic-program "firefox")
+      browse-url-generic-program "firefox %u")
 
 ;; Start Emacs server. Require Midnight
 (unless (system-is-windows)
@@ -50,7 +50,7 @@
 (require 'ag)
 
 ;; User name and e-mail
-(setq user-full-name   "Nicholay Korobko")
+(setq user-full-name   "Mykola Korobko")
 (setq user-mail-adress "korobko.nikolay@gmail.com")
 
 ;; Package manager:
@@ -60,11 +60,11 @@
 
 
 (add-to-list 'package-archives
-             '("marmalade" . "https://marmalade-repo.org/packages/"))
+             '("marmalade" . "https://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
-             '("SC"  . "http://joseito.republika.pl/sunrise-commander/") t)
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
 (setq package-archive-enable-alist '(("melpa" magit )))
 
@@ -83,7 +83,7 @@
     ;php-mode
     ;protobuf-mode
     ;python-mode
-    ;rspec-mode
+                                        ;rspec-mode
     ;ruby-end
     ;wc-mode
     ;web-mode
@@ -127,6 +127,8 @@
 (setq dired-recursive-deletes 'top)
 (setq frame-title-format "%b - emacs")
 (setq dired-listing-switches "-agG")
+(setq dired-recursive-copies 'always)
+(setq dired-recursive-deletes 'always)
 
 (eval-after-load 'image-dired+ '(image-diredx-async-mode 1))
 (eval-after-load 'image-dired+ '(image-diredx-adjust-mode 1))
@@ -145,7 +147,8 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
+    ("1dd7b369ab51f00e91b6a990634017916e7bdeb64002b4dda0d7a618785725ac" "732b807b0543855541743429c9979ebfb363e27ec91e82f463c91e68c772f6e3" "5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "19ba41b6dc0b5dd34e1b8628ad7ae47deb19f968fe8c31853d64ea8c4df252b8" "51e228ffd6c4fff9b5168b31d5927c27734e82ec61f414970fc6bcce23bc140d" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "c712d616ea5a9ef4e513681846eb908728bbb087c2d251ded8374ee9faafa199" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "acd48beaecc038c0c990e8ac11a4a80e72f6b57a3c43f4b97d8f69ade64ff294" "7ceb8967b229c1ba102378d3e2c5fef20ec96a41f615b454e0dc0bfa1d326ea6" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
+ '(js-indent-level 2)
  '(js2-auto-indent-p t)
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p nil)
@@ -154,6 +157,11 @@
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
  '(org-directory "/home/nicholass/Dropbox/org")
+ '(package-selected-packages
+   (quote
+    (org-cliplink orgnav org-download steam autopair  emmet-mode helm-emmet js2-refactor rainbow-delimiters xref-js2 toml-mode eimp ada-ref-man ox-hugo ada-mode geiser ace-window 0blayout helm-ag-r golden-ratio helm-cider cider clojure-mode clojure-snippets haskell-mode haskell-snippets yaml-mode web-mode underwater-theme twilight-theme sunrise-x-tree sunrise-x-mirror sunrise-x-loop solarized-theme smex scss-mode restclient-helm react-snippets pyvenv python-mode pug-mode powerline php-mode paredit ox-mediawiki ox-gfm org-present oauth2 nvm neotree multi-term move-line mode-icons mo-git-blame mmm-mode minimap material-theme markdown-preview-eww markdown-mode magit-gh-pulls lua-mode jsx-mode json-mode js-comint ir-black-theme ipython import-js image-dired+ image+ htmlize highlight-indentation highlight helm-swoop helm-projectile helm-proc helm-etags-plus helm-company helm-ag go-stacktracer go-scratch go-projectile go-dlv go-autocomplete find-file-in-project expand-region exec-path-from-shell es-windows es-lib engine-mode emojify emamux ein editorconfig drag-stuff company-web color-theme-solarized color-theme-sanityinc-tomorrow auto-indent-mode ansible alert ag ack ac-etags)))
+ '(safe-local-variable-values (quote ((org-hugo-auto-export-on-save . t))))
+ '(scheme-program-name "mit-scheme")
  '(web-mode-code-indent-offset 2))
 
 ;; ("org-notes"
@@ -171,6 +179,7 @@
 (menu-bar-mode     -1)
 (tool-bar-mode     -1)
 (scroll-bar-mode   -1)
+(horizontal-scroll-bar-mode -1)
 (blink-cursor-mode -1)
 (setq use-dialog-box     nil)
 (setq redisplay-dont-pause t)
@@ -242,10 +251,13 @@
 (auto-indent-global-mode)
 (setq-default indent-tabs-mode nil)
 
-(electric-pair-mode 1)
+
+(require 'autopair)
+(autopair-global-mode)
+
 (show-paren-mode 1) ; turn on paren match highlighting
 (setq show-paren-delay 0)
-(setq show-paren-style 'expression) ; highlight entire bracket expression
+(setq show-paren-style 'mixed) ; highlight entire bracket expression
 
 ;; File saving options
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -267,7 +279,7 @@
 ;; Multi-term
 (require 'multi-term)
 (setq multi-term-program "/bin/zsh")
-
+(global-set-key (kbd "C-x t t") 'multi-term)
 
 ;; load theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
@@ -293,12 +305,11 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil) ; stop creating #autosave# files
 
-;; Term
-(global-set-key (kbd "C-x t t") 'multi-term)
+
 
 (require 'company)
 (setq company-dabbrev-downcase nil)
-(add-hook 'after-init-hook 'global-company-mode)
+;(add-hook 'after-init-hook 'global-company-mode)
 
 ;; PM stuff -------------------------
 ;; Helm framework
@@ -358,20 +369,22 @@
 ;; (global-set-key (kbd "C-c h S") 'helm-multi-swoop)
 (global-set-key (kbd "M-i") 'helm-swoop)
 (global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
-(global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
+;; (global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
 (global-set-key (kbd "C-x M-i") 'helm-multi-swoop-all)
+(global-set-key (kbd "C-c M-i") 'helm-multi-swoop-projectile)
 
-;; When doing isearch, hand the word over to helm-swoop
 (define-key isearch-mode-map (kbd "M-i") 'helm-swoop-from-isearch)
 ;; From helm-swoop to helm-multi-swoop-all
 (define-key helm-swoop-map (kbd "M-i") 'helm-multi-swoop-all-from-helm-swoop)
 (define-key helm-swoop-map (kbd "M-m") 'helm-multi-swoop-current-mode-from-helm-swoop)
-
 ;; Move up and down like isearch
 (define-key helm-swoop-map (kbd "C-r") 'helm-previous-line)
 (define-key helm-swoop-map (kbd "C-s") 'helm-next-line)
 (define-key helm-multi-swoop-map (kbd "C-r") 'helm-previous-line)
 (define-key helm-multi-swoop-map (kbd "C-s") 'helm-next-line)
+(setq help-swoop-pattern "")
+(setq helm-swoop-use-line-number-face t)
+
 ;; search in buffer
 (global-set-key (kbd "C-c h o") 'helm-occur)
 
@@ -380,72 +393,94 @@
       helm-imenu-fuzzy-match    t)
 
 (helm-projectile-on)
+(global-set-key (kbd "C-c p") 'projectile-command-map)
 
 (setq tramp-ssh-controlmaster-options
-      "-o ControlMaster=auo -o ControlPath='tramp.%%C' -o ControlPersist=no -o ConnectTimeout=1")
+      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no -o ConnectTimeout=1")
 (require 'tramp)
 (helm-mode 1)
 (helm-autoresize-mode 1)
 
 ;; YAS
 (require 'yasnippet)
-(yas-global-mode 0)
-;; (defun check-expansion ()
-;;   (save-excursion
-;;     (if (looking-at "\\_>") t
-;;       (backward-char 1)
-;;       (if (looking-at "\\.") t
-;;         (backward-char 1)
-;;         (if (looking-at "->") t nil)))))
+(yas-global-mode 1)
 
-;; (defun do-yas-expand ()
-;;   (let ((yas/fallback-behavior 'return-nil))
-;;     (yas/expand)))
+(defun shk-yas/helm-prompt (prompt choices &optional display-fn)
+  "Use helm to select a snippet. Put this into `yas-prompt-functions.'"
+  (interactive)
+  (setq display-fn (or display-fn 'identity))
+  (if (require 'helm-config)
+      (let (tmpsource cands result rmap)
+        (setq cands (mapcar (lambda (x) (funcall display-fn x)) choices))
+        (setq rmap (mapcar (lambda (x) (cons (funcall display-fn x) x)) choices))
+        (setq tmpsource
+              (list
+               (cons 'name prompt)
+               (cons 'candidates cands)
+               '(action . (("Expand" . (lambda (selection) selection))))
+               ))
+        (setq result (helm-other-buffer '(tmpsource) "*helm-select-yasnippet"))
+        (if (null result)
+            (signal 'quit "user quit!")
+          (cdr (assoc result rmap))))
+    nil))
 
-;; (defun tab-indent-or-complete ()
-;;   (interactive)
-;;   (cond
-;;    ((minibufferp)
-;;     (minibuffer-complete))
-;;    (t
-;;     (indent-for-tab-command)
-;;     (if (or (not yas/minor-mode)
-;;             (null (do-yas-expand)))
-;;         (if (check-expansion)
-;;             (progn
-;;               (company-manual-begin)
-;;               (if (null company-candidates)
-;;                   (progn
-;;                     (company-abort)
-;;                     (indent-for-tab-command)))))))))
+(defun check-expansion ()
+  (save-excursion
+    (if (looking-at "\\_>") t
+      (backward-char 1)
+      (if (looking-at "\\.") t
+        (backward-char 1)
+        (if (looking-at "->") t nil)))))
 
-;; (defun tab-complete-or-next-field ()
-;;   (interactive)
-;;   (if (or (not yas/minor-mode)
-;;           (null (do-yas-expand)))
-;;       (if company-candidates
-;;           (company-complete-selection)
-;;         (if (check-expansion)
-;;             (progn
-;;               (company-manual-begin)
-;;               (if (null company-candidates)
-;;                   (progn
-;;                     (company-abort)
-;;                     (yas-next-field))))
-;;           (yas-next-field)))))
+(defun do-yas-expand ()
+  (let ((yas/fallback-behavior 'return-nil))
+    (yas/expand)))
 
-;; (defun expand-snippet-or-complete-selection ()
-;;   (interactive)
-;;   (if (or (not yas/minor-mode)
-;;           (null (do-yas-expand))
-;;           (company-abort))
-;;       (company-complete-selection)))
+(defun tab-indent-or-complete ()
+  (interactive)
+  (cond
+   ((minibufferp)
+    (minibuffer-complete))
+   (t
+    (indent-for-tab-command)
+    (if (or (not yas/minor-mode)
+            (null (do-yas-expand)))
+        (if (check-expansion)
+            (progn
+              (company-manual-begin)
+              (if (null company-candidates)
+                  (progn
+                    (company-abort)
+                    (indent-for-tab-command)))))))))
 
-;; (defun abort-company-or-yas ()
-;;   (interactive)
-;;   (if (null company-candidates)
-;;       (yas-abort-snippet)
-;;     (company-abort)))
+(defun tab-complete-or-next-field ()
+  (interactive)
+  (if (or (not yas/minor-mode)
+          (null (do-yas-expand)))
+      (if company-candidates
+          (company-complete-selection)
+        (if (check-expansion)
+            (progn
+              (company-manual-begin)
+              (if (null company-candidates)
+                  (progn
+                    (company-abort)
+                    (yas-next-field))))
+          (yas-next-field)))))
+
+(defun expand-snippet-or-complete-selection ()
+  (interactive)
+  (if (or (not yas/minor-mode)
+          (null (do-yas-expand))
+          (company-abort))
+      (company-complete-selection)))
+
+(defun abort-company-or-yas ()
+  (interactive)
+  (if (null company-candidates)
+      (yas-abort-snippet)
+    (company-abort)))
 
 ;; (global-set-key [tab] 'tab-indent-or-complete)
 ;; (global-set-key (kbd "TAB") 'tab-indent-or-complete)
@@ -464,8 +499,8 @@
 
 
 
-;; (add-hook 'multi-term-mode-hook (lambda()
-;;             (yas-minor-mode -1)))
+(add-hook 'term-mode-hook (lambda()
+            (yas-minor-mode -1)))
 
 
 ;; to move text
@@ -502,3 +537,41 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; Input method and key binding configuration.
+(setq alternative-input-methods
+      '(("russian-computer" . [?\C-\\])
+        ("ukrainian-computer" . [?\C-|])
+;        ("german-postfix"   . [?\C-\M-|])
+))
+
+(setq default-input-method
+      (caar alternative-input-methods))
+
+(defun toggle-alternative-input-method (method &optional arg interactive)
+  (if arg
+      (toggle-input-method arg interactive)
+    (let ((previous-input-method current-input-method))
+      (when current-input-method
+        (deactivate-input-method))
+      (unless (and previous-input-method
+                   (string= previous-input-method method))
+        (activate-input-method method)))))
+
+(defun reload-alternative-input-methods ()
+  (dolist (config alternative-input-methods)
+    (let ((method (car config)))
+      (global-set-key (cdr config)
+                      `(lambda (&optional arg interactive)
+                         ,(concat "Behaves similar to `toggle-input-method', but uses \""
+                                  method "\" instead of `default-input-method'")
+                         (interactive "P\np")
+                         (toggle-alternative-input-method ,method arg interactive))))))
+
+(reload-alternative-input-methods)
+
+;; Network stuff
+(setq ping-program-options '("-v"))
+(setq gnus-select-method
+      '(nnimap "bootless.info"))
+(setq gnus-read-active-file nil)

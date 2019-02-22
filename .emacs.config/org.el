@@ -1,7 +1,9 @@
 ;; Org-mode
+(require 'subr-x)
 (require 'org)
 (require 'helm-org)
 (require 'ox-latex)
+(require 'org-cliplink)
 (setq org-latex-default-packages-alist (cons '("mathletters" "ucs" nil) org-latex-default-packages-alist))
 
 (defun org-ask-location ()
@@ -53,6 +55,7 @@
       ;;               "digg")))
 
 (global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ci" 'org-cliplink)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cv" 'org-capture-goto-last-stored)

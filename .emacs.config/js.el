@@ -1,6 +1,8 @@
 (require 'js2-mode)
 (require 'js2-refactor)
 
+(require 'react-snippets)
+(require 'helm-emmet)
 (require 'emmet-mode)
 
 ;; (add-hook 'js2-mode-hook (lambda ()
@@ -33,7 +35,7 @@
 
 (setq scss-indent-offset 2)
 (setq css-indent-offset 2)
-(setq web-mode-css-indent-offset 2)
+(setq web-mode-css-indent-offset 4)
 
 ;; TODO:
 ;;(require 'company)
